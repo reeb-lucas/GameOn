@@ -1,0 +1,17 @@
+D:\238\GameOn\GameOn.Core\bin\Debug\netstandard2.0\GameOn.Core.deps.json
+D:\238\GameOn\GameOn.Core\bin\Debug\netstandard2.0\GameOn.Core.dll
+D:\238\GameOn\GameOn.Core\bin\Debug\netstandard2.0\GameOn.Core.pdb
+D:\238\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.AssemblyInfoInputs.cache
+D:\238\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.AssemblyInfo.cs
+D:\238\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.csproj.CoreCompileInputs.cache
+D:\238\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.dll
+D:\238\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.pdb
+C:\Users\Tyler\OneDrive\Sophmore\238\GameOn\GameOn.Core\bin\Debug\netstandard2.0\GameOn.Core.deps.json
+C:\Users\Tyler\OneDrive\Sophmore\238\GameOn\GameOn.Core\bin\Debug\netstandard2.0\GameOn.Core.dll
+C:\Users\Tyler\OneDrive\Sophmore\238\GameOn\GameOn.Core\bin\Debug\netstandard2.0\GameOn.Core.pdb
+C:\Users\Tyler\OneDrive\Sophmore\238\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.csprojAssemblyReference.cache
+C:\Users\Tyler\OneDrive\Sophmore\238\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.AssemblyInfoInputs.cache
+C:\Users\Tyler\OneDrive\Sophmore\238\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.AssemblyInfo.cs
+C:\Users\Tyler\OneDrive\Sophmore\238\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.csproj.CoreCompileInputs.cache
+C:\Users\Tyler\OneDrive\Sophmore\238\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.dll
+C:\Users\Tyler\OneDrive\Sophmore\238\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.pdb

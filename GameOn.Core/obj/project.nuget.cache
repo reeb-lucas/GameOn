@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "z7on3uqOIttCdbeGN1YyR3y7JysTwRtkgp0zLGJGzMSV61x3iK7rzBcH4cRhAbh6CrY7KNRsUWPidigmYdnlMw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tyler\\OneDrive\\Sophmore\\238\\GameOn\\GameOn.Core\\GameOn.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tyler\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Tyler\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Tyler\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
