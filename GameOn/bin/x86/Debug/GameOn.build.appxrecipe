@@ -121,8 +121,8 @@
     <AppxPackagedFile Include="C:\Users\lucas\.nuget\packages\microsoft.toolkit.uwp.ui.controls.media\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Media\Microsoft.Toolkit.Uwp.UI.Controls.Media.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Media\Microsoft.Toolkit.Uwp.UI.Controls.Media.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\Assets\blank_profile.png">
+      <PackagePath>Assets\blank_profile.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -150,6 +150,9 @@
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\GameOn.xr.xml">
       <PackagePath>GameOn.xr.xml</PackagePath>
