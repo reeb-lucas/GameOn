@@ -11222,18 +11222,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\Tyler\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\OneDrive\\College\\Sophmore\\Spring Term\\GUI\\Game On\\GameOn\\GameOn\\GameOn.csproj",
+      "projectUniqueName": "C:\\Users\\Tyler\\OneDrive\\Sophmore\\238\\GameOn\\GameOn\\GameOn.csproj",
       "projectName": "GameOn",
-      "projectPath": "C:\\Users\\User\\OneDrive\\College\\Sophmore\\Spring Term\\GUI\\Game On\\GameOn\\GameOn\\GameOn.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\OneDrive\\College\\Sophmore\\Spring Term\\GUI\\Game On\\GameOn\\GameOn\\obj\\",
+      "projectPath": "C:\\Users\\Tyler\\OneDrive\\Sophmore\\238\\GameOn\\GameOn\\GameOn.csproj",
+      "packagesPath": "C:\\Users\\Tyler\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tyler\\OneDrive\\Sophmore\\238\\GameOn\\GameOn\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -11241,7 +11241,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tyler\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11255,8 +11255,8 @@
       "frameworks": {
         "uap10.0.18362": {
           "projectReferences": {
-            "C:\\Users\\User\\OneDrive\\College\\Sophmore\\Spring Term\\GUI\\Game On\\GameOn\\GameOn.Core\\GameOn.Core.csproj": {
-              "projectPath": "C:\\Users\\User\\OneDrive\\College\\Sophmore\\Spring Term\\GUI\\Game On\\GameOn\\GameOn.Core\\GameOn.Core.csproj"
+            "C:\\Users\\Tyler\\OneDrive\\Sophmore\\238\\GameOn\\GameOn.Core\\GameOn.Core.csproj": {
+              "projectPath": "C:\\Users\\Tyler\\OneDrive\\Sophmore\\238\\GameOn\\GameOn.Core\\GameOn.Core.csproj"
             }
           }
         }
