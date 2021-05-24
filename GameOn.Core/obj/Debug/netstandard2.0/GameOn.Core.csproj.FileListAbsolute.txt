@@ -15,3 +15,12 @@ C:\Users\Tyler\OneDrive\Sophmore\238\GameOn\GameOn.Core\obj\Debug\netstandard2.0
 C:\Users\Tyler\OneDrive\Sophmore\238\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.csproj.CoreCompileInputs.cache
 C:\Users\Tyler\OneDrive\Sophmore\238\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.dll
 C:\Users\Tyler\OneDrive\Sophmore\238\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.pdb
+C:\Users\lucas\Documents\GameOn\GameOn.Core\bin\Debug\netstandard2.0\GameOn.Core.deps.json
+C:\Users\lucas\Documents\GameOn\GameOn.Core\bin\Debug\netstandard2.0\GameOn.Core.dll
+C:\Users\lucas\Documents\GameOn\GameOn.Core\bin\Debug\netstandard2.0\GameOn.Core.pdb
+C:\Users\lucas\Documents\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.csprojAssemblyReference.cache
+C:\Users\lucas\Documents\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.AssemblyInfoInputs.cache
+C:\Users\lucas\Documents\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.AssemblyInfo.cs
+C:\Users\lucas\Documents\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Documents\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.dll
+C:\Users\lucas\Documents\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.pdb

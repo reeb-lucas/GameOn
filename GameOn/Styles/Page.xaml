@@ -4,6 +4,8 @@
 
     <Style TargetType="Page" x:Key="PageStyle">
         <Setter Property="Background" Value="{ThemeResource ApplicationPageBackgroundThemeBrush}" />
+        <Setter Property="Width" Value="450"/>
+        <Setter Property="Height" Value="800"/>
     </Style>
 
 </ResourceDictionary>
