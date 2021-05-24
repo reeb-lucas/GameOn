@@ -151,14 +151,16 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Fill" />
     </RootType>
-    <RootType FullName="GameOn.Views.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Content" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Width" />
+      <RootProperty Name="BorderBrush" />
     </RootType>
+    <RootType FullName="GameOn.Views.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
