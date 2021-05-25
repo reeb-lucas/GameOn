@@ -74,7 +74,6 @@
       <RootProperty Name="Name" />
       <RootProperty Name="Padding" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
       <RootProperty Name="Mode" />
@@ -159,6 +158,7 @@
       <RootProperty Name="Width" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Items" />
+      <RootProperty Name="PlaceholderText" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TimePicker">
       <RootProperty Name="Margin" />
@@ -231,26 +231,6 @@
       <RootMethod Name="SetBelow" />
     </RootType>
     <RootType FullName="GameOn.Views.SocialDetailPage" />
-    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.AdaptiveGridView">
-      <RootProperty Name="Padding" />
-      <RootProperty Name="DesiredWidth" />
-      <RootProperty Name="IsItemClickEnabled" />
-      <RootProperty Name="ItemHeight" />
-      <RootProperty Name="ItemsSource" />
-      <RootProperty Name="SelectionMode" />
-      <RootProperty Name="StretchContentForSingleRow" />
-      <RootProperty Name="ItemTemplate" />
-      <RootEvent Name="ItemClick" />
-    </RootType>
-    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Animations.Connected">
-      <RootMethod Name="GetListItemElementName" />
-      <RootMethod Name="SetListItemElementName" />
-      <RootMethod Name="GetListItemKey" />
-      <RootMethod Name="SetListItemKey" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.DataTemplate">
-      <RootProperty Name="Template" />
-    </RootType>
     <RootType FullName="GameOn.Views.SocialPage" />
   </Roots.RootTypes>
 </Roots>
