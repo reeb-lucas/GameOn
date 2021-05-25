@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TZq0+JL7eWbLtJ8RN4FEdrNtI7M0v3tcsmMT5NjnIyXUjdbU6WnmKjdkXSJ+FvEChoc8rDbHZdRTy+qDFpOx8g==",
+  "dgSpecHash": "q5f5Dc29IMclPUpkmmdzDeDgEIZ1otEA3t4hZOgzasuevKS3ev6ZBkyrSbOEQMH0fSRTLvPhipEKMJSi0vxLRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tyler\\Documents\\GitHub\\GameOn\\GameOn.Core\\GameOn.Core.csproj",
+  "projectFilePath": "C:\\Users\\mw3lo\\OneDrive\\Documents\\GitHub\\GameOn\\GameOn.Core\\GameOn.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Tyler\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Tyler\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Tyler\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\mw3lo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\mw3lo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\mw3lo\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

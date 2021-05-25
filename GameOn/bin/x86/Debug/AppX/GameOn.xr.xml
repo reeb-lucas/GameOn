@@ -79,8 +79,6 @@
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
       <RootProperty Name="Mode" />
-      <RootProperty Name="Converter" />
-      <RootProperty Name="ConverterParameter" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.FontIcon">
       <RootProperty Name="HorizontalAlignment" />
@@ -159,7 +157,9 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="Width" />
       <RootProperty Name="BorderBrush" />
+      <RootProperty Name="FocusVisualSecondaryBrush" />
     </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="GameOn.Views.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="HorizontalAlignment" />
@@ -205,17 +205,6 @@
     <RootType FullName="GameOn.Helpers.EnumToBooleanConverter">
       <RootProperty Name="EnumType" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
-      <RootProperty Name="Margin" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
-      <RootProperty Name="IsChecked" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="GroupName" />
-      <RootProperty Name="CommandParameter" />
-      <RootEvent Name="Checked" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.ElementTheme" />
     <RootType FullName="GameOn.Views.SettingsPage" />
     <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationView">
       <RootProperty Name="IsBackButtonVisible" />
