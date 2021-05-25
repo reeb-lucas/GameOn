@@ -12,7 +12,7 @@
 
     <winui:NavigationView x:ConnectionId='2'
         x:Name="navigationView"
-        IsBackButtonVisible="Visible"
+        IsBackButtonVisible="Collapsed"
                                                            
                                                      
                                    

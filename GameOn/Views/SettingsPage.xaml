@@ -13,34 +13,40 @@
     </Page.Resources>
     <Grid Margin="{StaticResource MediumLeftRightMargin}">
         <StackPanel
-            x:Name="ContentArea">
+            x:Name="ContentArea" Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}" Width="450" Height="800">
             <TextBlock x:Uid="Settings_Title" Style="{ThemeResource SubtitleTextBlockStyle}" />
             <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
 
                 <StackPanel Margin="{StaticResource XSmallTopMargin}">
                     <Button 
                         x:Uid="Settings_Account_Details"
-                        FontSize="15" >
+                        FontSize="15"
+                        Width="200">
                     </Button>
                     <Button 
                         x:Uid="Settings_Theme"
-                        FontSize="15" >
+                        FontSize="15"
+                        Width="200">
                     </Button>
                     <Button 
                         x:Uid="Settings_Backup_Restore"
-                        FontSize="15" >
+                        FontSize="15"
+                        Width="200">
                     </Button>
                     <Button
                         x:Uid="Settings_Delete"
-                        FontSize="15" >
+                        FontSize="15"
+                        Width="200">
                     </Button>
                     <Button
                         x:Uid="Settings_Change"
-                        FontSize="15" >
+                        FontSize="15"
+                        Width="200">
                     </Button>
                     <Button
                         x:Uid="Settings_Reset"
-                        FontSize="15" >
+                        FontSize="15"
+                        Width="200">
                     </Button>
                 </StackPanel>
             </StackPanel>
@@ -48,7 +54,7 @@
             <TextBlock x:Uid="Settings_About" Style="{ThemeResource SubtitleTextBlockStyle}" />
 
             <StackPanel Margin="{StaticResource XSmallTopMargin}">
-                <TextBlock Style="{ThemeResource BodyTextBlockStyle}" Text="{x:Bind VersionDescription, Mode=OneWay}" />
+                <TextBlock Style="{ThemeResource BodyTextBlockStyle}" Text="Version 0.0.1" />
                 <TextBlock
                     x:Uid="Settings_AboutDescription"
                     Margin="{StaticResource XSmallTopMargin}"
