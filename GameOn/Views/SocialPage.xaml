@@ -12,7 +12,7 @@
 
     <Grid x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
         <Grid
-            Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}" Width="450" Height="800" Margin="501,100,501,100" >
+            Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}" Width="450" Height="800">
             <Image HorizontalAlignment="Left" Height="55" Margin="69,300,0,0" VerticalAlignment="Top" Width="43" RenderTransformOrigin="0.5,0.5" Source="/Assets/blank_profile.png"/>
             <Image HorizontalAlignment="Left" Height="55" Margin="70,419,0,0" VerticalAlignment="Top" Width="43" RenderTransformOrigin="0.5,0.5" Source="/Assets/blank_profile.png"/>
             <Image HorizontalAlignment="Left" Height="55" Margin="70,357,0,0" VerticalAlignment="Top" Width="43" RenderTransformOrigin="0.5,0.5" Source="/Assets/blank_profile.png"/>
@@ -22,20 +22,20 @@
             <TextBlock HorizontalAlignment="Left" Margin="190,96,0,0" Text="# Coins" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
             <Button Content="Customize
                     " Margin="21,142,0,0" VerticalAlignment="Top" FontSize="20"/>
-            <TextBlock HorizontalAlignment="Left" Margin="21,481,0,0" Text="Category" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" FontSize="20" SelectionChanged="TextBlock_SelectionChanged" RenderTransformOrigin="-0.831,1.556"/>
+            <TextBlock HorizontalAlignment="Left" Margin="21,481,0,0" Text="Category" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" FontSize="20" RenderTransformOrigin="-0.831,1.556"/>
             <TextBlock HorizontalAlignment="Left" Margin="166,250,0,0" Text="Leaderboard
-                       " TextWrapping="Wrap" VerticalAlignment="Top" Width="144" FontSize="25" SelectionChanged="TextBlock_SelectionChanged"/>
+                       " TextWrapping="Wrap" VerticalAlignment="Top" Width="144" FontSize="25"/>
             <TextBlock HorizontalAlignment="Left" Margin="131,308,0,0" Text="Friend 1" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" FontSize="20"/>
             <TextBlock HorizontalAlignment="Left" Margin="131,365,0,0" Text="Username" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" FontSize="20"/>
             <TextBlock HorizontalAlignment="Left" Margin="131,427,0,0" Text="Friend 2" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" FontSize="20"/>
             <TextBlock HorizontalAlignment="Left" Margin="275,308,0,0" Text="# Coins" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
             <TextBlock HorizontalAlignment="Left" Margin="275,365,0,0" Text="# Coins" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
             <TextBlock HorizontalAlignment="Left" Margin="275,427,0,0" Text="# Coins" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
-            <Button Content="All Friends" Margin="308,480,0,0" VerticalAlignment="Top" FontSize="20"/>
-            <TextBlock HorizontalAlignment="Left" Margin="21,481,0,0" Text="Category" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" FontSize="20" SelectionChanged="TextBlock_SelectionChanged" RenderTransformOrigin="-0.831,1.556"/>
-            <TextBlock HorizontalAlignment="Center" Margin="0,560,0,0" Text="Stats" TextWrapping="Wrap" VerticalAlignment="Top" Width="54" FontSize="25" SelectionChanged="TextBlock_SelectionChanged"/>
-            <Rectangle HorizontalAlignment="Left" Height="138" Margin="27,635,0,0" Stroke="Black" VerticalAlignment="Top" Width="393" Fill="{ThemeResource BackButtonPressedForegroundThemeBrush}"/>
-            <TextBlock HorizontalAlignment="Left" Margin="190,687,0,0" Text="Graph" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" FontSize="25" SelectionChanged="TextBlock_SelectionChanged"/>
+            <Button Content="All Friends" Margin="253,474,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <TextBlock HorizontalAlignment="Left" Margin="21,481,0,0" Text="Category" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" FontSize="20"  RenderTransformOrigin="-0.831,1.556"/>
+            <TextBlock HorizontalAlignment="Left" Margin="177,560,0,0" Text="Stats" TextWrapping="Wrap" VerticalAlignment="Top" Width="54" FontSize="25" RenderTransformOrigin="-0.589,0.517" />
+            <Rectangle HorizontalAlignment="Left" Height="138" Margin="43,635,0,0" Stroke="Black" VerticalAlignment="Top" Width="320" Fill="{ThemeResource BackButtonPressedForegroundThemeBrush}"/>
+            <TextBlock HorizontalAlignment="Left" Margin="166,687,0,0" Text="Graph" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" FontSize="25" RenderTransformOrigin="-0.286,0.445" />
 
 
 
