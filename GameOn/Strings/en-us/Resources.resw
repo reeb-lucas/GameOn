@@ -178,7 +178,7 @@ Devin Wolford</value>
     <comment>About this application description for Settings</comment>
   </data>
   <data name="Settings_Title.Text" xml:space="preserve">
-    <value>Settings</value>
+    <value />
     <comment>Personalization text for Settings</comment>
   </data>
   <data name="Settings_Change.Content" xml:space="preserve">

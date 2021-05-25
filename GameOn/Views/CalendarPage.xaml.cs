@@ -46,11 +46,6 @@ namespace GameOn.Views
             {
                 SampleItems.Add(item);
             }
-
-            if (ListDetailsViewControl.ViewState == ListDetailsViewState.Both)
-            {
-                Selected = SampleItems.FirstOrDefault();
-            }
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
