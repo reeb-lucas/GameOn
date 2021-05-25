@@ -10,35 +10,39 @@
     Style="{StaticResource PageStyle}"
     mc:Ignorable="d">
 
-    <Grid x:Name="ContentArea">
-        <controls:AdaptiveGridView
-            Padding="{StaticResource MediumLeftRightMargin}"
-            animations:Connected.ListItemElementName="itemThumbnail"
-            animations:Connected.ListItemKey="animationKeySocial"
-            DesiredWidth="180"
-            IsItemClickEnabled="True"
-            ItemClick="OnItemClick"
-            ItemHeight="160"
-            ItemsSource="{x:Bind Source,Mode=OneWay}"
-            SelectionMode="None"
-            StretchContentForSingleRow="False">
-            <controls:AdaptiveGridView.ItemTemplate>
-                <DataTemplate x:DataType="models:SampleOrder">
-                    <Grid
-                        x:Name="itemThumbnail"
-                        Padding="{StaticResource XSmallLeftTopRightBottomMargin}"
-                        Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
-                        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                            <FontIcon Glyph="{x:Bind Symbol}" />
-                            <TextBlock
-                                Margin="{StaticResource XXSmallTopMargin}"
-                                HorizontalAlignment="Center"
-                                Style="{ThemeResource BodyTextStyle}"
-                                Text="{x:Bind Company}" />
-                        </StackPanel>
-                    </Grid>
-                </DataTemplate>
-            </controls:AdaptiveGridView.ItemTemplate>
-        </controls:AdaptiveGridView>
+    <Grid x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
+        <Grid
+            Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}" Width="450" Height="800" Margin="501,100,501,100" >
+            <Image HorizontalAlignment="Left" Height="55" Margin="69,300,0,0" VerticalAlignment="Top" Width="43" RenderTransformOrigin="0.5,0.5" Source="/Assets/blank_profile.png"/>
+            <Image HorizontalAlignment="Left" Height="55" Margin="70,419,0,0" VerticalAlignment="Top" Width="43" RenderTransformOrigin="0.5,0.5" Source="/Assets/blank_profile.png"/>
+            <Image HorizontalAlignment="Left" Height="55" Margin="70,357,0,0" VerticalAlignment="Top" Width="43" RenderTransformOrigin="0.5,0.5" Source="/Assets/blank_profile.png"/>
+            <Image HorizontalAlignment="Left" Height="100" Margin="27,26,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.5,0.5" Source="/Assets/blank_profile.png"/>
+            <TextBlock HorizontalAlignment="Left" Margin="190,32,0,0" Text="UserName" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" FontSize="20"/>
+            <TextBlock HorizontalAlignment="Left" Margin="190,64,0,0" Text="Level: X" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+            <TextBlock HorizontalAlignment="Left" Margin="190,96,0,0" Text="# Coins" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+            <Button Content="Customize
+                    " Margin="21,142,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <TextBlock HorizontalAlignment="Left" Margin="21,481,0,0" Text="Category" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" FontSize="20" SelectionChanged="TextBlock_SelectionChanged" RenderTransformOrigin="-0.831,1.556"/>
+            <TextBlock HorizontalAlignment="Left" Margin="166,250,0,0" Text="Leaderboard
+                       " TextWrapping="Wrap" VerticalAlignment="Top" Width="144" FontSize="25" SelectionChanged="TextBlock_SelectionChanged"/>
+            <TextBlock HorizontalAlignment="Left" Margin="131,308,0,0" Text="Friend 1" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" FontSize="20"/>
+            <TextBlock HorizontalAlignment="Left" Margin="131,365,0,0" Text="Username" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" FontSize="20"/>
+            <TextBlock HorizontalAlignment="Left" Margin="131,427,0,0" Text="Friend 2" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" FontSize="20"/>
+            <TextBlock HorizontalAlignment="Left" Margin="275,308,0,0" Text="# Coins" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+            <TextBlock HorizontalAlignment="Left" Margin="275,365,0,0" Text="# Coins" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+            <TextBlock HorizontalAlignment="Left" Margin="275,427,0,0" Text="# Coins" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+            <Button Content="All Friends" Margin="308,480,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <TextBlock HorizontalAlignment="Left" Margin="21,481,0,0" Text="Category" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" FontSize="20" SelectionChanged="TextBlock_SelectionChanged" RenderTransformOrigin="-0.831,1.556"/>
+            <TextBlock HorizontalAlignment="Center" Margin="0,560,0,0" Text="Stats" TextWrapping="Wrap" VerticalAlignment="Top" Width="54" FontSize="25" SelectionChanged="TextBlock_SelectionChanged"/>
+            <Rectangle HorizontalAlignment="Left" Height="138" Margin="27,635,0,0" Stroke="Black" VerticalAlignment="Top" Width="393" Fill="{ThemeResource BackButtonPressedForegroundThemeBrush}"/>
+            <TextBlock HorizontalAlignment="Left" Margin="190,687,0,0" Text="Graph" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" FontSize="25" SelectionChanged="TextBlock_SelectionChanged"/>
+
+
+
+
+        </Grid>
+        <ComboBox Width="120" Margin="617,581,0,0" PlaceholderText="Weekly"/>
+        <ComboBox Width="120" Margin="527,692,0,0" PlaceholderText="Coins"/>
+
     </Grid>
 </Page>
