@@ -14,41 +14,34 @@
     <Grid Margin="{StaticResource MediumLeftRightMargin}">
         <StackPanel x:ConnectionId='2'
             x:Name="ContentArea">
-            <TextBlock x:Uid="Settings_Personalization" Style="{ThemeResource SubtitleTextBlockStyle}" />
+            <TextBlock x:Uid="Settings_Title" Style="{ThemeResource SubtitleTextBlockStyle}" />
             <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
-                <TextBlock x:Uid="Settings_Theme" />
 
                 <StackPanel Margin="{StaticResource XSmallTopMargin}">
-                    <RadioButton x:ConnectionId='4' 
-                        x:Uid="Settings_Theme_Light"
-                                                            
-                                                                                                                                                   
-                        FontSize="15"
-                        GroupName="AppTheme" >
-                        <RadioButton.CommandParameter>
-                            <xaml:ElementTheme>Light</xaml:ElementTheme>
-                        </RadioButton.CommandParameter> 
-                    </RadioButton>
-                    <RadioButton x:ConnectionId='5' 
-                        x:Uid="Settings_Theme_Dark"
-                                                            
-                                                                                                                                                  
-                        FontSize="15"
-                        GroupName="AppTheme">
-                        <RadioButton.CommandParameter>
-                            <xaml:ElementTheme>Dark</xaml:ElementTheme>
-                        </RadioButton.CommandParameter>
-                    </RadioButton>
-                    <RadioButton x:ConnectionId='6' 
-                        x:Uid="Settings_Theme_Default"
-                                                           
-                                                                                                                                                     
-                        FontSize="15"
-                        GroupName="AppTheme">
-                        <RadioButton.CommandParameter>
-                            <xaml:ElementTheme>Default</xaml:ElementTheme>
-                        </RadioButton.CommandParameter>
-                    </RadioButton>
+                    <Button 
+                        x:Uid="Settings_Account_Details"
+                        FontSize="15" >
+                    </Button>
+                    <Button 
+                        x:Uid="Settings_Theme"
+                        FontSize="15" >
+                    </Button>
+                    <Button 
+                        x:Uid="Settings_Backup_Restore"
+                        FontSize="15" >
+                    </Button>
+                    <Button
+                        x:Uid="Settings_Delete"
+                        FontSize="15" >
+                    </Button>
+                    <Button
+                        x:Uid="Settings_Change"
+                        FontSize="15" >
+                    </Button>
+                    <Button
+                        x:Uid="Settings_Reset"
+                        FontSize="15" >
+                    </Button>
                 </StackPanel>
             </StackPanel>
 
@@ -61,7 +54,6 @@
                     Margin="{StaticResource XSmallTopMargin}"
                     Style="{ThemeResource BodyTextBlockStyle}" />
 
-                <HyperlinkButton x:Uid="Settings_PrivacyTermsLink" Margin="{StaticResource XSmallTopMargin}" />
             </StackPanel>
         </StackPanel>
     </Grid>
