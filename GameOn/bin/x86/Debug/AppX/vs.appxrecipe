@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-25T18:28:28.143</Modified>
+      <Modified>2021-05-30T22:38:32.134</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\GameOn.exe">
       <PackagePath>entrypoint\GameOn.exe</PackagePath>
-      <Modified>2021-05-25T18:28:27.317</Modified>
+      <Modified>2021-05-30T22:38:31.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
@@ -128,7 +128,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn.Core\bin\Debug\netstandard2.0\GameOn.Core.dll">
       <PackagePath>GameOn.Core.dll</PackagePath>
-      <Modified>2021-05-25T18:27:30.505</Modified>
+      <Modified>2021-05-30T22:34:09.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\.nuget\packages\win2d.uwp\1.25.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -206,63 +206,63 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\GameOn.xr.xml">
       <PackagePath>GameOn.xr.xml</PackagePath>
-      <Modified>2021-05-25T18:25:36.789</Modified>
+      <Modified>2021-05-30T22:28:15.566</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-05-25T18:28:27.208</Modified>
+      <Modified>2021-05-30T22:38:31.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
-      <Modified>2021-05-25T18:28:27.208</Modified>
+      <Modified>2021-05-30T22:38:31.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\Styles\_Colors.xbf">
       <PackagePath>Styles\_Colors.xbf</PackagePath>
-      <Modified>2021-05-25T18:28:27.208</Modified>
+      <Modified>2021-05-30T22:38:31.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\Styles\_FontSizes.xbf">
       <PackagePath>Styles\_FontSizes.xbf</PackagePath>
-      <Modified>2021-05-25T18:28:27.208</Modified>
+      <Modified>2021-05-30T22:38:31.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\Styles\_Thickness.xbf">
       <PackagePath>Styles\_Thickness.xbf</PackagePath>
-      <Modified>2021-05-25T18:28:27.208</Modified>
+      <Modified>2021-05-30T22:38:31.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
-      <Modified>2021-05-25T18:28:27.208</Modified>
+      <Modified>2021-05-30T22:38:31.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\Views\CalendarDetailControl.xbf">
       <PackagePath>Views\CalendarDetailControl.xbf</PackagePath>
-      <Modified>2021-05-25T18:28:27.192</Modified>
+      <Modified>2021-05-30T22:38:31.252</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\Views\CalendarPage.xbf">
       <PackagePath>Views\CalendarPage.xbf</PackagePath>
-      <Modified>2021-05-25T18:28:27.209</Modified>
+      <Modified>2021-05-30T22:38:31.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-05-25T18:28:27.209</Modified>
+      <Modified>2021-05-30T22:38:31.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\Views\New_TaskPage.xbf">
       <PackagePath>Views\New_TaskPage.xbf</PackagePath>
-      <Modified>2021-05-25T18:28:27.209</Modified>
+      <Modified>2021-05-30T22:38:31.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
-      <Modified>2021-05-25T18:28:27.209</Modified>
+      <Modified>2021-05-30T22:38:31.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\Views\ShellPage.xbf">
       <PackagePath>Views\ShellPage.xbf</PackagePath>
-      <Modified>2021-05-25T18:28:27.210</Modified>
+      <Modified>2021-05-30T22:38:31.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\Views\SocialDetailPage.xbf">
       <PackagePath>Views\SocialDetailPage.xbf</PackagePath>
-      <Modified>2021-05-25T18:28:27.205</Modified>
+      <Modified>2021-05-30T22:38:31.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\Views\SocialPage.xbf">
       <PackagePath>Views\SocialPage.xbf</PackagePath>
-      <Modified>2021-05-25T18:28:27.208</Modified>
+      <Modified>2021-05-30T22:38:31.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -278,11 +278,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-05-25T18:27:41.019</Modified>
+      <Modified>2021-05-30T22:34:19.415</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\Core\GameOn.exe">
       <PackagePath>GameOn.exe</PackagePath>
-      <Modified>2021-05-25T18:28:28.139</Modified>
+      <Modified>2021-05-30T22:38:32.129</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

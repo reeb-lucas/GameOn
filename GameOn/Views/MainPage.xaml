@@ -22,14 +22,14 @@
             <TextBlock HorizontalAlignment="Left" Margin="159,138,0,0" Text="####/####" TextWrapping="Wrap" VerticalAlignment="Top"/>
 
             <TextBlock HorizontalAlignment="Left" Margin="38,208,0,0" Text="Today" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
-            <Button HorizontalAlignment="Left" Margin="64,256,0,0" Content="Task 1           ## XP # Coins" VerticalAlignment="Top" FontSize="20" Width="273" BorderBrush="#FF646464" FocusVisualSecondaryBrush="{x:Null}"/>
-            <Button HorizontalAlignment="Left" Margin="64,301,0,0" Content="Task 2           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="273" BorderBrush="#FF646464"/>
-            <Button HorizontalAlignment="Left" Margin="64,346,0,0" Content="Task 3           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="273" BorderBrush="#FF646464"/>
-            <Button HorizontalAlignment="Left" Margin="63,391,0,0" Content="Task 4           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="273" BorderBrush="#FF646464"/>
+            <Button HorizontalAlignment="Left" Margin="64,256,0,0"  Content="Task 1           ## XP # Coins" VerticalAlignment="Top" FontSize="20" Width="273" BorderBrush="#FF646464" Click="Task_Click" x:Name="TodayTOne"/>
+            <Button HorizontalAlignment="Left" Margin="64,301,0,0" Content="Task 2           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="273" BorderBrush="#FF646464" Click="Task_Click" Name="TodayTTwo"/>
+            <Button HorizontalAlignment="Left" Margin="64,346,0,0" Content="Task 3           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="273" BorderBrush="#FF646464" Click="Task_Click" Name="TodayTThree"/>
+            <Button HorizontalAlignment="Left" Margin="63,391,0,0" Content="Task 4           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="273" BorderBrush="#FF646464" Click="Task_Click" Name="TodayTFour"/>
             <TextBlock HorizontalAlignment="Left" Margin="38,445,0,0" Text="Tomorrow" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
-            <Button HorizontalAlignment="Left" Margin="67,485,0,0" Content="Task 1           ## XP # Coins" VerticalAlignment="Top" FontSize="20" Width="273" BorderBrush="#FF646464"/>
-            <Button Margin="67,530,0,0" Content="Task 2           ## XP # Coins" VerticalAlignment="Top" FontSize="20" Width="273" BorderBrush="#FF646464"/>
-            <Button Margin="67,575,0,0" Content="Task 3           ## XP # Coins" VerticalAlignment="Top" FontSize="20" Width="273" BorderBrush="#FF646464"/>
+            <Button HorizontalAlignment="Left" Margin="67,485,0,0" Content="Task 1           ## XP # Coins" VerticalAlignment="Top" FontSize="20" Width="273" BorderBrush="#FF646464" Click="Task_Click" Name="TomorrowTOne"/>
+            <Button Margin="67,530,0,0" Content="Task 2           ## XP # Coins" VerticalAlignment="Top" FontSize="20" Width="273" BorderBrush="#FF646464" Click="Task_Click" Name="TomorrowTTwo"/>
+            <Button Margin="67,575,0,0" Content="Task 3           ## XP # Coins" VerticalAlignment="Top" FontSize="20" Width="273" BorderBrush="#FF646464" Click="Task_Click" Name="TomorrowTThree"/>
 
         </Grid>
 

@@ -28,6 +28,19 @@ namespace GameOn.Views
 
         private void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 
-        
+        private async void Task_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            //If sender == TodayTOne then open TodayTOne dialog with info on task
+            if(sender == TodayTOne)
+            {
+                ContentDialog todayOneD = new ContentDialog
+                {
+                    Title = "Task 1 - get dynamic string somehow",
+                    Content = "set string as task description",
+                    CloseButtonText = "OK!"
+                };
+                ContentDialogResult result = await todayOneD.ShowAsync();
+            }
+        }
     }
 }

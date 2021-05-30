@@ -48,3 +48,4 @@ C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn.Core\obj\Debug\netstandard2.0
 C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.csproj.CoreCompileInputs.cache
 C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.dll
 C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.pdb
+C:\Users\lucas\Documents\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.csprojAssemblyReference.cache
