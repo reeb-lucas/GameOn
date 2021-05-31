@@ -11,6 +11,18 @@ namespace GameOn.Views
         public MainPage()
         {
             InitializeComponent();
+            int level = 1;
+            int totalXp = 0; //needs to change
+            int xpToNext = level * 1000;
+
+            if (totalXp / xpToNext == 1)
+                level += 1;
+
+            LevelText.Text = "Level: " + level;
+            XpText.Text = totalXp + "/" + xpToNext;
+            CurrentLevel.Text = "" + level;
+            NextLevel.Text = "" + (level + 1);
+            //TODO: width of progress rectangle as fraction of setwidth/totwidth = totxp/xptonext
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
