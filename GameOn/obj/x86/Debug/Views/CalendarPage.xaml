@@ -12,22 +12,16 @@
     <Grid x:ConnectionId='2' x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
         <Grid
             Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}" Width="450" Height="800">
-            <CalendarView Margin="0,10,0,0" VerticalAlignment="Top" Width="312" HorizontalAlignment="Center"/>
+            <CalendarView x:ConnectionId='7' Margin="24,54,0,0" VerticalAlignment="Top" Width="351"                                            x:Name="Calendar"/>
             <!--
                 The SystemControlPageBackgroundChromeLowBrush background represents where you should place your content. 
                 Place your content here.
             -->
         </Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="550,439,0,0" Text="Today" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
-        <Button Content="Task 1           ## XP # Coins" FontSize="20" Width="353" BorderBrush="#FF646464" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Center" Margin="0,468,0,0" VerticalAlignment="Top"/>
-        <Button Margin="0,514,0,0" Content="Task 2           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="353" BorderBrush="#FF646464" HorizontalAlignment="Center"/>
-        <Button Margin="0,559,0,0" Content="Task 3           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="353" BorderBrush="#FF646464" HorizontalAlignment="Center"/>
-        <Button Margin="0,604,0,0" Content="Task 4           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="354" BorderBrush="#FF646464" HorizontalAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="550,666,0,0" Text="Tomorrow" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
-        <Button Margin="0,698,0,0" Content="Task 1           ## XP # Coins" VerticalAlignment="Top" FontSize="20" Width="353" BorderBrush="#FF646464" HorizontalAlignment="Center"/>
-        <Button Margin="0,743,0,0" Content="Task 2           ## XP # Coins" VerticalAlignment="Top" FontSize="20" Width="354" BorderBrush="#FF646464" HorizontalAlignment="Center"/>
-        <Button Margin="0,788,0,0" Content="Task 3           ## XP # Coins" VerticalAlignment="Top" FontSize="20" Width="354" BorderBrush="#FF646464" HorizontalAlignment="Center"/>
-        <Button Margin="0,833,0,0" Content="Task 4           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="354" BorderBrush="#FF646464" HorizontalAlignment="Center"/>
+        <Button x:ConnectionId='3' Name="Button1" Content="Task 1           ## XP # Coins" FontSize="20" Width="353" BorderBrush="#FF646464" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Center" Margin="0,496,0,0" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='4' Name="Button2" Margin="0,542,0,0" Content="Task 2           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="353" BorderBrush="#FF646464" HorizontalAlignment="Center"/>
+        <Button x:ConnectionId='5' Name="Button3" Margin="0,587,0,0" Content="Task 3           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="353" BorderBrush="#FF646464" HorizontalAlignment="Center"/>
+        <Button x:ConnectionId='6' Name="Button4" Margin="0,632,0,0" Content="Task 4           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="354" BorderBrush="#FF646464" HorizontalAlignment="Center"/>
     </Grid>
 </Page>
 

@@ -62,5 +62,28 @@ namespace GameOn.Views
         }
 
         private void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
+        private void Calender_DateChange(CalendarView sender, CalendarViewSelectedDatesChangedEventArgs args)
+        {
+            if((string)Button1.Content == "Task 1           ## XP # Coins")
+            {
+                Button1.Content = "Task A           ## XP # Coins";
+                Button2.Content = "Task B           ## XP # Coins";
+                Button3.Content = "Task C           ## XP # Coins";
+                Button4.Content = "Task D           ## XP # Coins";
+            }
+            else
+            {
+                Button1.Content = "Task 1           ## XP # Coins";
+                Button2.Content = "Task 2           ## XP # Coins";
+                Button3.Content = "Task 3           ## XP # Coins";
+                Button4.Content = "Task 4           ## XP # Coins";
+            }
+        }
+
+        private void Task_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
