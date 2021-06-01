@@ -165,26 +165,17 @@
     <value>Account Details</value>
     <comment>Light theme text for Settings</comment>
   </data>
-  <data name="Settings_About.Text" xml:space="preserve">
-    <value>About this application</value>
-    <comment>About this application title for Settings</comment>
-  </data>
-  <data name="Settings_AboutDescription.Text" xml:space="preserve">
-    <value>Created By:
-Kohlton Kuczler
-Tyler Lucas
-Jacob Pressley
-Devin Wolford</value>
-    <comment>About this application description for Settings</comment>
-  </data>
   <data name="Settings_Title.Text" xml:space="preserve">
     <value />
     <comment>Personalization text for Settings</comment>
   </data>
-  <data name="Settings_Change.Content" xml:space="preserve">
-    <value>Change Account</value>
+  <data name="Settings_Logout.Content" xml:space="preserve">
+    <value>Logout</value>
   </data>
   <data name="Settings_Reset.Content" xml:space="preserve">
     <value>Reset Progress</value>
+  </data>
+  <data name="Settings_About.Content" xml:space="preserve">
+    <value>About</value>
   </data>
 </root>

@@ -97,7 +97,7 @@ namespace GameOn.Views
             ContentDialog details = new ContentDialog()
             {
                 Title = "Account Details",
-                Content = "Level: 1 \n" + "XP: 0\n" + "Needed XP: 1000",
+                Content = "Username: " + PlayerData.username + "\n" + "Coins: " + PlayerData.coins + "\n" + "Level: " + PlayerData.level + "\n" + "XP: " + PlayerData.xp + "\n" + "Needed XP: " + PlayerData.level * 1000,
                 CloseButtonText = "Done"
             };
 
