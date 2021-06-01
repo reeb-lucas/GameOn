@@ -14,13 +14,16 @@ namespace GameOn
         public string _name { get; }
         public string _notes { get; }
 
-        PlayerTask(DateTime dateTime, int coins, int xp, string name, string notes)
+        public bool _done { get; }
+
+        public PlayerTask(DateTime dateTime, int coins, int xp, string name, string notes)
         {
             _dateTime = dateTime;
             _coins = coins;
             _xp = xp;
             _name = name;
-            _notes = notes; 
+            _notes = notes;
+            _done = false;
         }
        
     }
@@ -32,6 +35,6 @@ namespace GameOn
         public static int level { get; set; } = 1;
         public static int xp { get; set; } = 0;
 
-        public static List<PlayerTask> playerTasks { get; set; }
+        public static List<PlayerTask> playerTasks { get; set; } = new List<PlayerTask>();
     }
 }
