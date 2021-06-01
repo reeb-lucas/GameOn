@@ -27,11 +27,20 @@ namespace GameOn.Views
             CurrentLevel.Text = "" + level;
             NextLevel.Text = "" + (level + 1);
             LevelRect.Width = totalXp / 3;
-            //TODO: width of progress rectangle as fraction of setwidth/totwidth = totxp/xptonext
 
             CoinText.Text = "Coins: " + PlayerData.coins;
             UsernameText.Text = PlayerData.username;
-                
+
+            TodayT2.Visibility = 0;
+
+            if (PlayerData.playerTasks.Count > 0)
+            {
+                for (int i = 0; i < PlayerData.playerTasks.Count; i++)
+                {
+                    if (i == 0)
+                        TodayT1.Visibility = 0;
+                }
+            }
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

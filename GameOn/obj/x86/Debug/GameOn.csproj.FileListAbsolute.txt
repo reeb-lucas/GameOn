@@ -1125,3 +1125,8 @@ C:\Users\devin.wolford\Documents\GitHub\GameOn\GameOn\obj\x86\Debug\Views\SureCh
 C:\Users\devin.wolford\Documents\GitHub\GameOn\GameOn\obj\x86\Debug\Views\SureCheckContentDialog.g.cs
 C:\Users\devin.wolford\Documents\GitHub\GameOn\GameOn\obj\x86\Debug\Views\SureCheckContentDialog.xaml
 C:\Users\devin.wolford\Documents\GitHub\GameOn\GameOn\obj\x86\Debug\Views\SureCheckContentDialog.xbf
+C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\Views\SureCheckContentDialog.xbf
+C:\Users\lucas\Documents\GameOn\GameOn\obj\x86\Debug\Views\SureCheckContentDialog.g.i.cs
+C:\Users\lucas\Documents\GameOn\GameOn\obj\x86\Debug\Views\SureCheckContentDialog.g.cs
+C:\Users\lucas\Documents\GameOn\GameOn\obj\x86\Debug\Views\SureCheckContentDialog.xaml
+C:\Users\lucas\Documents\GameOn\GameOn\obj\x86\Debug\Views\SureCheckContentDialog.xbf
