@@ -947,3 +947,9 @@ C:\Users\kohlt\Documents\GitHub\GameOn\GameOn\obj\x86\Debug\MultipleQualifiersPe
 C:\Users\kohlt\Documents\GitHub\GameOn\GameOn\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\kohlt\Documents\GitHub\GameOn\GameOn\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_637214786760000000.json
 C:\Users\kohlt\Documents\GitHub\GameOn\GameOn\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637112858540000000.json
+C:\Users\lucas\Documents\GameOn\GameOn\bin\x86\Debug\Views\ThemeContentDialog.xbf
+C:\Users\lucas\Documents\GameOn\GameOn\obj\x86\Debug\Views\ThemeContentDialog.g.i.cs
+C:\Users\lucas\Documents\GameOn\GameOn\obj\x86\Debug\Views\ThemeContentDialog.g.cs
+C:\Users\lucas\Documents\GameOn\GameOn\obj\x86\Debug\Views\ThemeContentDialog.xaml
+C:\Users\lucas\Documents\GameOn\GameOn\obj\x86\Debug\Views\ThemeContentDialog.xbf
+C:\Users\lucas\Documents\GameOn\GameOn\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637112858540000000.json

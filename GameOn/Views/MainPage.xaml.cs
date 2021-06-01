@@ -23,12 +23,12 @@ namespace GameOn.Views
             XpText.Text = totalXp + "/" + xpToNext;
             CurrentLevel.Text = "" + level;
             NextLevel.Text = "" + (level + 1);
+            LevelRect.Width = totalXp / 3;
             //TODO: width of progress rectangle as fraction of setwidth/totwidth = totxp/xptonext
 
             CoinText.Text = "Coins: " + PlayerData.coins;
             UsernameText.Text = PlayerData.username;
-
-
+                
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -48,14 +48,14 @@ namespace GameOn.Views
 
         private async void Task_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            //If sender == TodayTOne then open TodayTOne dialog with info on task
-            if(sender == TodayTOne)
+            if(sender == TodayT1)
             {
                 ContentDialog todayOneD = new ContentDialog
                 {
-                    Title = "Task 1 - get dynamic string somehow",
-                    Content = "set string as task description",
-                    CloseButtonText = "OK!"
+                    Title = PlayerData.playerTasks[0]._name,
+                    Content = PlayerData.playerTasks[0]._notes,
+                    CloseButtonText = "OK!",
+                    PrimaryButtonText = "Finished!"
                 };
                 ContentDialogResult result = await todayOneD.ShowAsync();
             }
