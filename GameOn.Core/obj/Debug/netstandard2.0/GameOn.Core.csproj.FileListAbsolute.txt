@@ -50,3 +50,12 @@ C:\Users\kohlt\Documents\GitHub\GameOn\GameOn.Core\obj\Debug\netstandard2.0\Game
 C:\Users\kohlt\Documents\GitHub\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.csproj.CoreCompileInputs.cache
 C:\Users\kohlt\Documents\GitHub\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.dll
 C:\Users\kohlt\Documents\GitHub\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.pdb
+C:\Users\devin.wolford\Documents\GitHub\GameOn\GameOn.Core\bin\Debug\netstandard2.0\GameOn.Core.deps.json
+C:\Users\devin.wolford\Documents\GitHub\GameOn\GameOn.Core\bin\Debug\netstandard2.0\GameOn.Core.dll
+C:\Users\devin.wolford\Documents\GitHub\GameOn\GameOn.Core\bin\Debug\netstandard2.0\GameOn.Core.pdb
+C:\Users\devin.wolford\Documents\GitHub\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.csprojAssemblyReference.cache
+C:\Users\devin.wolford\Documents\GitHub\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.AssemblyInfoInputs.cache
+C:\Users\devin.wolford\Documents\GitHub\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.AssemblyInfo.cs
+C:\Users\devin.wolford\Documents\GitHub\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.csproj.CoreCompileInputs.cache
+C:\Users\devin.wolford\Documents\GitHub\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.dll
+C:\Users\devin.wolford\Documents\GitHub\GameOn\GameOn.Core\obj\Debug\netstandard2.0\GameOn.Core.pdb

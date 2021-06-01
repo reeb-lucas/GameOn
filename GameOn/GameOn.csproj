@@ -169,6 +169,9 @@
     <Compile Include="Views\SocialPage.xaml.cs">
       <DependentUpon>SocialPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\SureCheckContentDialog.xaml.cs">
+      <DependentUpon>SureCheckContentDialog.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ThemeContentDialog.xaml.cs">
       <DependentUpon>ThemeContentDialog.xaml</DependentUpon>
     </Compile>
@@ -231,6 +234,10 @@
     <Page Include="Views\SocialPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\SureCheckContentDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\ThemeContentDialog.xaml">
       <SubType>Designer</SubType>
