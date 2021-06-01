@@ -30,13 +30,21 @@
     <AppXManifest Include="C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< Updated upstream
       <Modified>2021-06-01T19:00:12.324</Modified>
+=======
+      <Modified>2021-06-01T19:07:39.231</Modified>
+>>>>>>> Stashed changes
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\GameOn.exe">
       <PackagePath>entrypoint\GameOn.exe</PackagePath>
+<<<<<<< Updated upstream
       <Modified>2021-06-01T19:00:11.309</Modified>
+=======
+      <Modified>2021-06-01T19:07:37.584</Modified>
+>>>>>>> Stashed changes
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
@@ -210,63 +218,123 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
+<<<<<<< Updated upstream
       <Modified>2021-06-01T18:58:28.634</Modified>
+=======
+      <Modified>2021-06-01T19:07:37.486</Modified>
+>>>>>>> Stashed changes
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
+<<<<<<< Updated upstream
       <Modified>2021-06-01T19:00:11.183</Modified>
+=======
+      <Modified>2021-06-01T19:07:37.486</Modified>
+>>>>>>> Stashed changes
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\Styles\_Colors.xbf">
       <PackagePath>Styles\_Colors.xbf</PackagePath>
+<<<<<<< Updated upstream
       <Modified>2021-06-01T19:00:11.183</Modified>
+=======
+      <Modified>2021-06-01T19:07:37.486</Modified>
+>>>>>>> Stashed changes
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\Styles\_FontSizes.xbf">
       <PackagePath>Styles\_FontSizes.xbf</PackagePath>
+<<<<<<< Updated upstream
       <Modified>2021-06-01T19:00:11.183</Modified>
+=======
+      <Modified>2021-06-01T19:07:37.486</Modified>
+>>>>>>> Stashed changes
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\Styles\_Thickness.xbf">
       <PackagePath>Styles\_Thickness.xbf</PackagePath>
+<<<<<<< Updated upstream
       <Modified>2021-06-01T19:00:11.184</Modified>
+=======
+      <Modified>2021-06-01T19:07:37.486</Modified>
+>>>>>>> Stashed changes
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
+<<<<<<< Updated upstream
       <Modified>2021-06-01T19:00:11.184</Modified>
+=======
+      <Modified>2021-06-01T19:07:37.486</Modified>
+>>>>>>> Stashed changes
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\Views\CalendarDetailControl.xbf">
       <PackagePath>Views\CalendarDetailControl.xbf</PackagePath>
+<<<<<<< Updated upstream
       <Modified>2021-06-01T18:58:28.616</Modified>
+=======
+      <Modified>2021-06-01T19:07:37.472</Modified>
+>>>>>>> Stashed changes
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\Views\CalendarPage.xbf">
       <PackagePath>Views\CalendarPage.xbf</PackagePath>
+<<<<<<< Updated upstream
       <Modified>2021-06-01T18:58:28.634</Modified>
+=======
+      <Modified>2021-06-01T19:07:37.486</Modified>
+>>>>>>> Stashed changes
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
+<<<<<<< Updated upstream
       <Modified>2021-06-01T18:58:28.634</Modified>
+=======
+      <Modified>2021-06-01T19:07:37.486</Modified>
+>>>>>>> Stashed changes
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\Views\New_TaskPage.xbf">
       <PackagePath>Views\New_TaskPage.xbf</PackagePath>
+<<<<<<< Updated upstream
       <Modified>2021-06-01T18:58:28.634</Modified>
+=======
+      <Modified>2021-06-01T19:07:37.486</Modified>
+>>>>>>> Stashed changes
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
+<<<<<<< Updated upstream
       <Modified>2021-06-01T18:58:28.634</Modified>
+=======
+      <Modified>2021-06-01T19:07:37.486</Modified>
+>>>>>>> Stashed changes
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\Views\ShellPage.xbf">
       <PackagePath>Views\ShellPage.xbf</PackagePath>
+<<<<<<< Updated upstream
       <Modified>2021-06-01T19:00:11.184</Modified>
+=======
+      <Modified>2021-06-01T19:07:37.486</Modified>
+>>>>>>> Stashed changes
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\Views\SocialDetailPage.xbf">
       <PackagePath>Views\SocialDetailPage.xbf</PackagePath>
+<<<<<<< Updated upstream
       <Modified>2021-06-01T18:58:28.629</Modified>
+=======
+      <Modified>2021-06-01T19:07:37.483</Modified>
+>>>>>>> Stashed changes
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\Views\SocialPage.xbf">
       <PackagePath>Views\SocialPage.xbf</PackagePath>
+<<<<<<< Updated upstream
       <Modified>2021-06-01T18:58:28.632</Modified>
+=======
+      <Modified>2021-06-01T19:07:37.486</Modified>
+>>>>>>> Stashed changes
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\Views\ThemeContentDialog.xbf">
       <PackagePath>Views\ThemeContentDialog.xbf</PackagePath>
+<<<<<<< Updated upstream
       <Modified>2021-06-01T18:58:28.635</Modified>
+=======
+      <Modified>2021-06-01T19:07:37.487</Modified>
+>>>>>>> Stashed changes
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -286,7 +354,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\Core\GameOn.exe">
       <PackagePath>GameOn.exe</PackagePath>
+<<<<<<< Updated upstream
       <Modified>2021-06-01T19:00:12.317</Modified>
+=======
+      <Modified>2021-06-01T19:07:39.227</Modified>
+>>>>>>> Stashed changes
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
