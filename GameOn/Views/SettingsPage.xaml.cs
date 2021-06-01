@@ -63,11 +63,17 @@ namespace GameOn.Views
 
         private async void ThemeChanged_CheckedAsync(object sender, RoutedEventArgs e)
         {
-            var param = (sender as RadioButton)?.CommandParameter;
+            ThemeContentDialog chooseTheme = new ThemeContentDialog();
 
-            if (param != null)
+            await chooseTheme.ShowAsync();
+
+            if (chooseTheme.Theme == 2)
+            { 
+                await ThemeSelectorService.SetThemeAsync(ElementTheme.Dark);
+            }
+            else if (chooseTheme.Theme == 1)
             {
-                await ThemeSelectorService.SetThemeAsync((ElementTheme)param);
+                await ThemeSelectorService.SetThemeAsync(ElementTheme.Light);
             }
         }
 

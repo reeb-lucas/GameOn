@@ -78,6 +78,8 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
       <RootProperty Name="Mode" />
@@ -199,6 +201,10 @@
     <RootType FullName="GameOn.Helpers.EnumToBooleanConverter">
       <RootProperty Name="EnumType" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
+      <RootProperty Name="SkewX" />
+      <RootProperty Name="TranslateX" />
+    </RootType>
     <RootType FullName="GameOn.Views.SettingsPage" />
     <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationView">
       <RootProperty Name="IsBackButtonVisible" />
@@ -246,5 +252,14 @@
     </RootType>
     <RootType FullName="GameOn.Views.SocialDetailPage" />
     <RootType FullName="GameOn.Views.SocialPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentDialog">
+      <RootProperty Name="Title" />
+      <RootProperty Name="PrimaryButtonText" />
+      <RootProperty Name="SecondaryButtonText" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="PrimaryButtonClick" />
+      <RootEvent Name="SecondaryButtonClick" />
+    </RootType>
+    <RootType FullName="GameOn.Views.ThemeContentDialog" />
   </Roots.RootTypes>
 </Roots>

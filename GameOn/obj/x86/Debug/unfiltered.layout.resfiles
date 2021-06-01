@@ -22,4 +22,5 @@ Views\SettingsPage.xbf
 Views\ShellPage.xbf
 Views\SocialDetailPage.xbf
 Views\SocialPage.xbf
+Views\ThemeContentDialog.xbf
 Properties\Default.rd.xml

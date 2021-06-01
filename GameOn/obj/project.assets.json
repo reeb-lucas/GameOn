@@ -11222,27 +11222,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\mw3lo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\reeblucas\\GameOn\\GameOn\\GameOn.csproj",
+      "projectUniqueName": "C:\\Users\\mw3lo\\OneDrive\\Documents\\GitHub\\GameOn\\GameOn\\GameOn.csproj",
       "projectName": "GameOn",
-      "projectPath": "C:\\Users\\User\\Source\\Repos\\reeblucas\\GameOn\\GameOn\\GameOn.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Source\\Repos\\reeblucas\\GameOn\\GameOn\\obj\\",
+      "projectPath": "C:\\Users\\mw3lo\\OneDrive\\Documents\\GitHub\\GameOn\\GameOn\\GameOn.csproj",
+      "packagesPath": "C:\\Users\\mw3lo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mw3lo\\OneDrive\\Documents\\GitHub\\GameOn\\GameOn\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\mw3lo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11255,8 +11252,8 @@
       "frameworks": {
         "uap10.0.18362": {
           "projectReferences": {
-            "C:\\Users\\User\\Source\\Repos\\reeblucas\\GameOn\\GameOn.Core\\GameOn.Core.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\reeblucas\\GameOn\\GameOn.Core\\GameOn.Core.csproj"
+            "C:\\Users\\mw3lo\\OneDrive\\Documents\\GitHub\\GameOn\\GameOn.Core\\GameOn.Core.csproj": {
+              "projectPath": "C:\\Users\\mw3lo\\OneDrive\\Documents\\GitHub\\GameOn\\GameOn.Core\\GameOn.Core.csproj"
             }
           }
         }

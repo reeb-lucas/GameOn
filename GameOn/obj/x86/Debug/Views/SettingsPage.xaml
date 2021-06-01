@@ -15,52 +15,52 @@
         <StackPanel x:ConnectionId='2'
             x:Name="ContentArea" Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}" Width="450" Height="800">
             <TextBlock x:Uid="Settings_Title" Style="{ThemeResource SubtitleTextBlockStyle}" />
-            <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
+            <StackPanel Margin="{StaticResource SmallTopBottomMargin}" Height="304">
 
-                <StackPanel Margin="{StaticResource XSmallTopMargin}">
+                <StackPanel Margin="{StaticResource XSmallTopMargin}" Height="242" RenderTransformOrigin="0.5,0.5">
+                    <StackPanel.RenderTransform>
+                        <CompositeTransform SkewX="0.704" TranslateX="1.488"/>
+                    </StackPanel.RenderTransform>
                     <Button 
                         x:Uid="Settings_Account_Details"
                         FontSize="15"
-                        Width="200">
+                        Width="200"
+                        Margin="0,0,0,0">
                     </Button>
-                    <Button 
+                    <Button x:ConnectionId='3' 
                         x:Uid="Settings_Theme"
                         FontSize="15"
-                        Width="200">
+                        Width="200"
+                        Margin="0,5, 0, 0"
+                                                         >
                     </Button>
                     <Button 
                         x:Uid="Settings_Backup_Restore"
                         FontSize="15"
-                        Width="200">
+                        Width="200"
+                        Margin="0,5, 0, 0" >
                     </Button>
                     <Button
                         x:Uid="Settings_Delete"
                         FontSize="15"
-                        Width="200">
+                        Width="200"
+                        Margin="0,5, 0, 0">
                     </Button>
                     <Button
                         x:Uid="Settings_Change"
                         FontSize="15"
-                        Width="200">
+                        Width="200"
+                        Margin="0,5, 0, 0">
                     </Button>
                     <Button
                         x:Uid="Settings_Reset"
                         FontSize="15"
-                        Width="200">
-                    </Button>
+                        Width="200"
+                        Margin="0,5,0,0"/>
                 </StackPanel>
             </StackPanel>
 
-            <TextBlock x:Uid="Settings_About" Style="{ThemeResource SubtitleTextBlockStyle}" />
 
-            <StackPanel Margin="{StaticResource XSmallTopMargin}">
-                <TextBlock Style="{ThemeResource BodyTextBlockStyle}" Text="Version 0.0.1" />
-                <TextBlock
-                    x:Uid="Settings_AboutDescription"
-                    Margin="{StaticResource XSmallTopMargin}"
-                    Style="{ThemeResource BodyTextBlockStyle}" />
-
-            </StackPanel>
         </StackPanel>
     </Grid>
 </Page>
