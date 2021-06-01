@@ -1,6 +1,7 @@
 ﻿using System;
 
 using GameOn.Services;
+using GameOn;
 
 using Windows.ApplicationModel.Activation;
 using Windows.UI.Xaml;
@@ -14,6 +15,7 @@ namespace GameOn
         private ActivationService ActivationService
         {
             get { return _activationService.Value; }
+            
         }
 
         public App()

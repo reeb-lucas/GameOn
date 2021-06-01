@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using GameOn;
 
 using Windows.UI.Xaml.Controls;
 
@@ -12,7 +13,7 @@ namespace GameOn.Views
         {
             InitializeComponent();
             int level = 1;
-            int totalXp = 0; //needs to change
+            int totalXp = PlayerData.xp;
             int xpToNext = level * 1000;
 
             if (totalXp / xpToNext == 1)
@@ -23,6 +24,11 @@ namespace GameOn.Views
             CurrentLevel.Text = "" + level;
             NextLevel.Text = "" + (level + 1);
             //TODO: width of progress rectangle as fraction of setwidth/totwidth = totxp/xptonext
+
+            CoinText.Text = "Coins: " + PlayerData.coins;
+            UsernameText.Text = PlayerData.username;
+
+
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
