@@ -110,8 +110,8 @@ namespace GameOn.Views
             {
                 Title = "Confirm",
                 Content = "Are You Sure?",
-                PrimaryButtonText = "Confirm",
-                SecondaryButtonText = "Cancel"
+                PrimaryButtonText = "Cancel",
+                SecondaryButtonText = "Confirm"
             };
 
             await confirmation.ShowAsync();
