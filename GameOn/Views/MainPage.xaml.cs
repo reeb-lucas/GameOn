@@ -2,13 +2,14 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using GameOn;
-
 using Windows.UI.Xaml.Controls;
 
 namespace GameOn.Views
 {
     public sealed partial class MainPage : Page, INotifyPropertyChanged
     {
+        
+
         public MainPage()
         {
             InitializeComponent();
@@ -31,14 +32,32 @@ namespace GameOn.Views
             CoinText.Text = "Coins: " + PlayerData.coins;
             UsernameText.Text = PlayerData.username;
 
-            TodayT2.Visibility = 0;
-
             if (PlayerData.playerTasks.Count > 0)
             {
                 for (int i = 0; i < PlayerData.playerTasks.Count; i++)
                 {
                     if (i == 0)
+                    {
                         TodayT1.Visibility = 0;
+                        TodayT1.Content = "" + PlayerData.playerTasks[i]._name + "     " + PlayerData.playerTasks[i]._xp + " XP " + PlayerData.playerTasks[i]._coins + " Coins";
+                    }
+                        
+                    if (i == 1)
+                    {
+                        TodayT2.Visibility = 0;
+                        TodayT2.Content = "" + PlayerData.playerTasks[i]._name + "     " + PlayerData.playerTasks[i]._xp + " XP " + PlayerData.playerTasks[i]._coins + " Coins";
+                    }
+                    if (i == 2)
+                    {
+                        TodayT3.Visibility = 0;
+                        TodayT3.Content = "" + PlayerData.playerTasks[i]._name + "     " + PlayerData.playerTasks[i]._xp + " XP " + PlayerData.playerTasks[i]._coins + " Coins";
+                    }
+                    if (i == 3)
+                    {
+                        TodayT4.Visibility = 0;
+                        TodayT4.Content = "" + PlayerData.playerTasks[i]._name + "     " + PlayerData.playerTasks[i]._xp + " XP " + PlayerData.playerTasks[i]._coins + " Coins";
+                    }
+
                 }
             }
         }
@@ -70,6 +89,67 @@ namespace GameOn.Views
                     PrimaryButtonText = "Finished!"
                 };
                 ContentDialogResult result = await todayOneD.ShowAsync();
+                if (result == ContentDialogResult.Primary)
+                {
+                    //TODO: Change color to indicate done? or just make button invisible?
+                    //TodayT1.Background = ;
+                    PlayerData.xp += PlayerData.playerTasks[0]._xp;
+                    LevelRect.Width = PlayerData.xp / 3;
+                }
+            }
+            if (sender == TodayT2)
+            {
+                ContentDialog todayOneD = new ContentDialog
+                {
+                    Title = PlayerData.playerTasks[1]._name,
+                    Content = PlayerData.playerTasks[1]._notes,
+                    CloseButtonText = "OK!",
+                    PrimaryButtonText = "Finished!"
+                };
+                ContentDialogResult result = await todayOneD.ShowAsync();
+                if (result == ContentDialogResult.Primary)
+                {
+                    //TODO: Change color to indicate done? or just make button invisible?
+                    //TodayT2.Background = ;
+                    PlayerData.xp += PlayerData.playerTasks[1]._xp;
+                    LevelRect.Width = PlayerData.xp / 3;
+                }
+            }
+            if (sender == TodayT3)
+            {
+                ContentDialog todayOneD = new ContentDialog
+                {
+                    Title = PlayerData.playerTasks[2]._name,
+                    Content = PlayerData.playerTasks[2]._notes,
+                    CloseButtonText = "OK!",
+                    PrimaryButtonText = "Finished!"
+                };
+                ContentDialogResult result = await todayOneD.ShowAsync();
+                if (result == ContentDialogResult.Primary)
+                {
+                    //TODO: Change color to indicate done? or just make button invisible?
+                    //TodayT3.Background = ;
+                    PlayerData.xp += PlayerData.playerTasks[2]._xp;
+                    LevelRect.Width = PlayerData.xp / 3;
+                }
+            }
+            if (sender == TodayT4)
+            {
+                ContentDialog todayOneD = new ContentDialog
+                {
+                    Title = PlayerData.playerTasks[3]._name,
+                    Content = PlayerData.playerTasks[3]._notes,
+                    CloseButtonText = "OK!",
+                    PrimaryButtonText = "Finished!"
+                };
+                ContentDialogResult result = await todayOneD.ShowAsync();
+                if (result == ContentDialogResult.Primary)
+                {
+                    //TODO: Change color to indicate done? or just make button invisible?
+                    //TodayT4.Background = ;
+                    PlayerData.xp += PlayerData.playerTasks[3]._xp;
+                    LevelRect.Width = PlayerData.xp / 3;
+                }
             }
         }
     }
