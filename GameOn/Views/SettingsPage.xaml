@@ -15,48 +15,63 @@
         <StackPanel
             x:Name="ContentArea" Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}" Width="450" Height="800">
             <TextBlock x:Uid="Settings_Title" Style="{ThemeResource SubtitleTextBlockStyle}" />
-            <StackPanel Margin="{StaticResource SmallTopBottomMargin}" Height="304">
+            <StackPanel Margin="{StaticResource SmallTopBottomMargin}" Height="630">
 
-                <StackPanel Margin="{StaticResource XSmallTopMargin}" Height="242" RenderTransformOrigin="0.5,0.5">
+                <StackPanel Margin="{StaticResource XSmallTopMargin}" Height="564" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
                     <StackPanel.RenderTransform>
                         <CompositeTransform SkewX="0.704" TranslateX="1.488"/>
                     </StackPanel.RenderTransform>
                     <Button 
                         x:Uid="Settings_Account_Details"
-                        FontSize="15"
+                        FontSize="20"
                         Width="200"
-                        Margin="0,0,0,0">
+                        Margin="120,50,0,0"
+                        Click="AccountDetails_Button_Click">
                     </Button>
                     <Button 
                         x:Uid="Settings_Theme"
-                        FontSize="15"
+                        FontSize="20"
                         Width="200"
-                        Margin="0,5, 0, 0"
+                        Margin="120,20, 0, 0"
                         Click="ThemeChanged_CheckedAsync">
                     </Button>
                     <Button 
-                        x:Uid="Settings_Backup_Restore"
-                        FontSize="15"
+                        x:Uid="Settings_Backup"
+                        Content="Backup"
+                        FontSize="20"
                         Width="200"
-                        Margin="0,5, 0, 0" >
+                        Margin="120,20, 0, 0"
+                        Click="Backup_Button_Click" >
                     </Button>
                     <Button
                         x:Uid="Settings_Delete"
-                        FontSize="15"
+                        FontSize="20"
                         Width="200"
-                        Margin="0,5, 0, 0">
+                        Margin="120,20, 0, 0"
+                        Click="Sure_Button_Click">
                     </Button>
                     <Button
                         x:Uid="Settings_Change"
-                        FontSize="15"
+                        FontSize="20"
                         Width="200"
-                        Margin="0,5, 0, 0">
+                        Margin="120,20, 0, 0"
+                        Click="Sure_Button_Click">
                     </Button>
                     <Button
                         x:Uid="Settings_Reset"
-                        FontSize="15"
+                        FontSize="20"
                         Width="200"
-                        Margin="0,5,0,0"/>
+                        Margin="120,20,0,0"
+                        Click="Sure_Button_Click">
+                    </Button>
+                    <Button
+                        x:Uid="About"
+                        Content="About"
+                        FontSize="20"
+                        Width="200"
+                        Margin="120,20,0,0"
+                        Click="About_Button_Click">
+                    </Button>
                 </StackPanel>
             </StackPanel>
 

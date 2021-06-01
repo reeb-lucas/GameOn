@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 using GameOn.Helpers;
 using GameOn.Services;
-
+using Microsoft.Toolkit.Uwp.UI;
 using Windows.ApplicationModel;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -91,5 +91,54 @@ namespace GameOn.Views
         }
 
         private void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
+        private async void AccountDetails_Button_Click(object sender, RoutedEventArgs e)
+        {
+            ContentDialog details = new ContentDialog()
+            {
+                Title = "Account Details",
+                Content = "Level: 1 \n" + "XP: 0\n" + "Needed XP: 1000",
+                CloseButtonText = "Done"
+            };
+
+            await details.ShowAsync();
+        }
+
+        private async void Sure_Button_Click(object sender, RoutedEventArgs e)
+        {
+            ContentDialog confirmation = new ContentDialog()
+            {
+                Title = "Confirm",
+                Content = "Are You Sure?",
+                CloseButtonText = "Confirm"
+            };
+
+            await confirmation.ShowAsync();
+        }
+
+        private async void Backup_Button_Click(object sender, RoutedEventArgs e)
+        {
+            ContentDialog backup = new ContentDialog()
+            {
+                Title = "Backup",
+                Content = "Choose Your Account Type",
+                PrimaryButtonText = "Google",
+                SecondaryButtonText = "Microsoft"
+            };
+
+            await backup.ShowAsync();
+        }
+
+        private async void About_Button_Click(object sender, RoutedEventArgs e)
+        {
+            ContentDialog about = new ContentDialog()
+            {
+                Title = "About",
+                Content = "Version 0.0.1\n\n" + "Creators:\n" + "   Kohlton Kuczler\n   Tyler Lucas\n   Jacob Pressley\n   Devin Wolford",
+                CloseButtonText = "Done"
+            };
+
+            await about.ShowAsync();
+        }
     }
 }
