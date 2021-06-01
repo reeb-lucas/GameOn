@@ -12,12 +12,15 @@ namespace GameOn.Views
         public MainPage()
         {
             InitializeComponent();
-            int level = 1;
+            int level = PlayerData.level;
             int totalXp = PlayerData.xp;
             int xpToNext = level * 1000;
 
             if (totalXp / xpToNext == 1)
+            {
+                PlayerData.level = level += 1;
                 level += 1;
+            }
 
             LevelText.Text = "Level: " + level;
             XpText.Text = totalXp + "/" + xpToNext;

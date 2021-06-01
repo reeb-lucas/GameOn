@@ -29,6 +29,7 @@ namespace GameOn
     {
         public static string username { get; set; } = "Username";
         public static int coins { get; set; } = 10;
+        public static int level { get; set; } = 1;
         public static int xp { get; set; } = 0;
 
         public static List<PlayerTask> playerTasks { get; set; }

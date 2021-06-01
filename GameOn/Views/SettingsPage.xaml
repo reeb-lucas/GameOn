@@ -35,14 +35,6 @@
                         Margin="120,20, 0, 0"
                         Click="ThemeChanged_CheckedAsync">
                     </Button>
-                    <Button 
-                        x:Uid="Settings_Backup"
-                        Content="Backup"
-                        FontSize="20"
-                        Width="200"
-                        Margin="120,20, 0, 0"
-                        Click="Backup_Button_Click" >
-                    </Button>
                     <Button
                         x:Uid="Settings_Delete"
                         FontSize="20"
@@ -51,7 +43,7 @@
                         Click="Sure_Button_Click">
                     </Button>
                     <Button
-                        x:Uid="Settings_Change"
+                        x:Uid="Settings_Logout"
                         FontSize="20"
                         Width="200"
                         Margin="120,20, 0, 0"
@@ -65,8 +57,7 @@
                         Click="Sure_Button_Click">
                     </Button>
                     <Button
-                        x:Uid="About"
-                        Content="About"
+                        x:Uid="Settings_About"
                         FontSize="20"
                         Width="200"
                         Margin="120,20,0,0"
