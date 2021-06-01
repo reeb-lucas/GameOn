@@ -18,18 +18,13 @@
         ItemInvoked="OnItemInvoked"
         IsSettingsVisible="True"
         PaneDisplayMode="LeftMinimal"
+        OpenPaneLength="40"
         Background="{ThemeResource SystemControlBackgroundAltHighBrush}">
         <winui:NavigationView.MenuItems>
-            <!--
-            TODO WTS: Change the symbols for each item as appropriate for your app
-            More on Segoe UI Symbol icons: https://docs.microsoft.com/windows/uwp/style/segoe-ui-symbol-font
-            Or to use an IconElement instead of a Symbol see https://github.com/Microsoft/WindowsTemplateStudio/blob/release/docs/UWP/projectTypes/navigationpane.md
-            Edit String/en-US/Resources.resw: Add a menu item title for each page
-            -->
-            <winui:NavigationViewItem x:Uid="Shell_Main" helpers:NavHelper.NavigateTo="views:MainPage" />
-            <winui:NavigationViewItem x:Uid="Shell_New_Task" helpers:NavHelper.NavigateTo="views:New_TaskPage" />
-            <winui:NavigationViewItem x:Uid="Shell_Calendar" helpers:NavHelper.NavigateTo="views:CalendarPage" />
-            <winui:NavigationViewItem x:Uid="Shell_Social" helpers:NavHelper.NavigateTo="views:SocialPage" />
+            <winui:NavigationViewItem x:Uid="Shell_Main" helpers:NavHelper.NavigateTo="views:MainPage" Icon="Home" Height="160"/>
+            <winui:NavigationViewItem x:Uid="Shell_New_Task" helpers:NavHelper.NavigateTo="views:New_TaskPage" Icon="Add" Height="160"/>
+            <winui:NavigationViewItem x:Uid="Shell_Calendar" helpers:NavHelper.NavigateTo="views:CalendarPage" Icon="Calendar" Height="160"/>
+            <winui:NavigationViewItem x:Uid="Shell_Social" helpers:NavHelper.NavigateTo="views:SocialPage" Icon="Contact" Height="160"/>
         </winui:NavigationView.MenuItems>
         <Grid>
             <Frame x:Name="shellFrame" Margin="-50,0,0,0"  />

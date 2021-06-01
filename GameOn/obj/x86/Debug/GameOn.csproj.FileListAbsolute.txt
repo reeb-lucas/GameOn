@@ -784,7 +784,6 @@ C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\obj\x86\Debug\MultipleQualifi
 C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_637214786760000000.json
 C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425067200000000.json
-C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425103200000000.json
 C:\Users\kohlt\Documents\GitHub\GameOn\GameOn\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Core\Microsoft.Toolkit.Uwp.UI.Controls.Core.xr.xml
 C:\Users\kohlt\Documents\GitHub\GameOn\GameOn\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml
 C:\Users\kohlt\Documents\GitHub\GameOn\GameOn\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Input\Microsoft.Toolkit.Uwp.UI.Controls.Input.xr.xml
@@ -953,3 +952,8 @@ C:\Users\lucas\Documents\GameOn\GameOn\obj\x86\Debug\Views\ThemeContentDialog.g.
 C:\Users\lucas\Documents\GameOn\GameOn\obj\x86\Debug\Views\ThemeContentDialog.xaml
 C:\Users\lucas\Documents\GameOn\GameOn\obj\x86\Debug\Views\ThemeContentDialog.xbf
 C:\Users\lucas\Documents\GameOn\GameOn\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637112858540000000.json
+C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\bin\x86\Debug\Views\ThemeContentDialog.xbf
+C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\obj\x86\Debug\Views\ThemeContentDialog.g.i.cs
+C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\obj\x86\Debug\Views\ThemeContentDialog.g.cs
+C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\obj\x86\Debug\Views\ThemeContentDialog.xaml
+C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\obj\x86\Debug\Views\ThemeContentDialog.xbf

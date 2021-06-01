@@ -214,12 +214,16 @@
       <RootProperty Name="SelectedItem" />
       <RootProperty Name="IsSettingsVisible" />
       <RootProperty Name="PaneDisplayMode" />
+      <RootProperty Name="OpenPaneLength" />
       <RootProperty Name="Background" />
       <RootProperty Name="MenuItems" />
       <RootProperty Name="Content" />
       <RootEvent Name="ItemInvoked" />
     </RootType>
-    <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItem" />
+    <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItem">
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Height" />
+    </RootType>
     <RootType FullName="GameOn.Helpers.NavHelper">
       <RootMethod Name="GetNavigateTo" />
       <RootMethod Name="SetNavigateTo" />
