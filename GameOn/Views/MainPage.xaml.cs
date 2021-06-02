@@ -131,6 +131,7 @@ namespace GameOn.Views
                     CurrentLevel.Text = "" + level;
                     NextLevel.Text = "" + (level + 1);
                     LevelRect.Width = totalXp / 3;
+                    Frame.Navigate(this.GetType());
                 }
             }
         }

@@ -50,8 +50,6 @@ namespace GameOn.Views
 
             PlayerData.playerTasks.Add(newTask);
 
-
-
             ContentDialog Completed = new ContentDialog
             {
                 Title = "Complete!",
@@ -60,6 +58,7 @@ namespace GameOn.Views
 
             };
             await Completed.ShowAsync();
+            Frame.Navigate(this.GetType());
         }
 
         private void Button_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
