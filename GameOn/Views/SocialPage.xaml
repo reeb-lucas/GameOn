@@ -21,7 +21,7 @@
             <TextBlock HorizontalAlignment="Left" Margin="190,64,0,0" Text="Level: X" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
             <TextBlock HorizontalAlignment="Left" Margin="190,96,0,0" Text="# Coins" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
             <Button Content="Customize
-                    " Margin="21,142,0,0" VerticalAlignment="Top" FontSize="20"/>
+                    " Margin="21,142,0,0" VerticalAlignment="Top" FontSize="20" CornerRadius="6"/>
             <TextBlock HorizontalAlignment="Left" Margin="21,481,0,0" Text="Category" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" FontSize="20" RenderTransformOrigin="-0.831,1.556"/>
             <TextBlock HorizontalAlignment="Left" Margin="166,250,0,0" Text="Leaderboard
                        " TextWrapping="Wrap" VerticalAlignment="Top" Width="144" FontSize="25"/>
@@ -31,18 +31,16 @@
             <TextBlock HorizontalAlignment="Left" Margin="275,308,0,0" Text="# Coins" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
             <TextBlock HorizontalAlignment="Left" Margin="275,365,0,0" Text="# Coins" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
             <TextBlock HorizontalAlignment="Left" Margin="275,427,0,0" Text="# Coins" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
-            <Button Content="All Friends" Margin="253,474,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <Button CornerRadius="6" Content="All Friends" Margin="253,474,0,0" VerticalAlignment="Top" FontSize="20"/>
             <TextBlock HorizontalAlignment="Left" Margin="21,481,0,0" Text="Category" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" FontSize="20"  RenderTransformOrigin="-0.831,1.556"/>
             <TextBlock HorizontalAlignment="Left" Margin="177,560,0,0" Text="Stats" TextWrapping="Wrap" VerticalAlignment="Top" Width="54" FontSize="25" RenderTransformOrigin="-0.589,0.517" />
             <Rectangle HorizontalAlignment="Left" Height="138" Margin="43,635,0,0" Stroke="Black" VerticalAlignment="Top" Width="320" Fill="{ThemeResource BackButtonPressedForegroundThemeBrush}"/>
             <TextBlock HorizontalAlignment="Left" Margin="166,687,0,0" Text="Graph" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" FontSize="25" RenderTransformOrigin="-0.286,0.445" />
 
 
-            <ComboBox Width="120" Margin="290,591,0,0" PlaceholderText="Weekly"/>
-            <ComboBox Width="120" Margin="10,514,0,0" PlaceholderText="Coins"/>
+            <ComboBox CornerRadius="6" Width="120" Margin="290,591,0,0" PlaceholderText="Weekly"/>
+            <ComboBox CornerRadius="6" Width="120" Margin="10,514,0,0" PlaceholderText="Coins"/>
 
         </Grid>
-        
-
     </Grid>
 </Page>

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.UI;
+using Windows.UI.Xaml.Media;
 
 namespace GameOn
 {
@@ -13,19 +15,19 @@ namespace GameOn
         public int _xp { get; }
         public string _name { get; }
         public string _notes { get; }
-
+        public Brush _color { get; set; }
         public bool _done { get; }
 
-        public PlayerTask(DateTime dateTime, int coins, int xp, string name, string notes)
+        public PlayerTask(DateTime dateTime, int coins, int xp, string name, string notes, Brush color)
         {
             _dateTime = dateTime;
             _coins = coins;
             _xp = xp;
             _name = name;
             _notes = notes;
+            _color = color;
             _done = false;
         }
-       
     }
 
     public static class PlayerData

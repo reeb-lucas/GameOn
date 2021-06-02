@@ -26,47 +26,51 @@
                         FontSize="20"
                         Width="200"
                         Margin="120,50,0,0"
-                        Click="AccountDetails_Button_Click">
+                        Click="AccountDetails_Button_Click"
+                        CornerRadius="6">
                     </Button>
                     <Button 
                         x:Uid="Settings_Theme"
                         FontSize="20"
                         Width="200"
                         Margin="120,20, 0, 0"
-                        Click="ThemeChanged_CheckedAsync">
+                        Click="ThemeChanged_CheckedAsync"
+                        CornerRadius="6">
                     </Button>
                     <Button
                         x:Uid="Settings_Delete"
                         FontSize="20"
                         Width="200"
                         Margin="120,20, 0, 0"
-                        Click="Sure_Button_Click">
+                        Click="Sure_Button_Click"
+                        CornerRadius="6">
                     </Button>
                     <Button
                         x:Uid="Settings_Logout"
                         FontSize="20"
                         Width="200"
                         Margin="120,20, 0, 0"
-                        Click="Sure_Button_Click">
+                        Click="Sure_Button_Click"
+                        CornerRadius="6">
                     </Button>
                     <Button
                         x:Uid="Settings_Reset"
                         FontSize="20"
                         Width="200"
                         Margin="120,20,0,0"
-                        Click="Reset_Button_Click" >
+                        Click="Reset_Button_Click"
+                        CornerRadius="6">
                     </Button>
                     <Button
                         x:Uid="Settings_About"
                         FontSize="20"
                         Width="200"
                         Margin="120,20,0,0"
-                        Click="About_Button_Click">
+                        Click="About_Button_Click"
+                        CornerRadius="6">
                     </Button>
                 </StackPanel>
             </StackPanel>
-
-
         </StackPanel>
     </Grid>
 </Page>

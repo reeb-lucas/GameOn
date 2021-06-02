@@ -4,6 +4,7 @@ using System.Runtime.CompilerServices;
 
 using Windows.UI.Xaml.Controls;
 using GameOn;
+using Windows.UI.Xaml.Media;
 
 namespace GameOn.Views
 {
@@ -33,9 +34,22 @@ namespace GameOn.Views
         {
             DateTime dateTime = new DateTime(TaskDate.Date.Value.Year, TaskDate.Date.Value.Month, TaskDate.Date.Value.Day, TaskTime.SelectedTime.Value.Hours, TaskTime.SelectedTime.Value.Minutes, TaskTime.SelectedTime.Value.Seconds);
 
-            PlayerTask newTask = new PlayerTask(dateTime, 10, 100, TaskName.Text, TaskNotes.Text);
+            PlayerTask newTask = new PlayerTask(dateTime, 10, 100, TaskName.Text, TaskNotes.Text, ColorButton.Background);
 
             PlayerData.playerTasks.Add(newTask);
+        }
+
+        private void Button_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            ColorPicker.Visibility = 0;
+            ColorDoneButton.Visibility = 0;    
+        }
+
+        private void ColorDoneButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            ColorPicker.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            ColorDoneButton.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            ColorButton.Background = new SolidColorBrush(ColorPicker.Color);
         }
     }
 }

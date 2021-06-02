@@ -11,6 +11,7 @@
     mc:Ignorable="d" Width="450" Height="800">
 
     <winui:NavigationView
+        CornerRadius="6"
         x:Name="navigationView"
         IsBackButtonVisible="Collapsed"
         IsBackEnabled="{x:Bind IsBackEnabled, Mode=OneWay}"
@@ -21,10 +22,10 @@
         OpenPaneLength="40"
         Background="{ThemeResource SystemControlBackgroundAltHighBrush}">
         <winui:NavigationView.MenuItems>
-            <winui:NavigationViewItem x:Uid="Shell_Main" helpers:NavHelper.NavigateTo="views:MainPage" Icon="Home" Height="160"/>
-            <winui:NavigationViewItem x:Uid="Shell_New_Task" helpers:NavHelper.NavigateTo="views:New_TaskPage" Icon="Add" Height="160"/>
-            <winui:NavigationViewItem x:Uid="Shell_Calendar" helpers:NavHelper.NavigateTo="views:CalendarPage" Icon="Calendar" Height="160"/>
-            <winui:NavigationViewItem x:Uid="Shell_Social" helpers:NavHelper.NavigateTo="views:SocialPage" Icon="Contact" Height="160"/>
+            <winui:NavigationViewItem x:Uid="Shell_Main" helpers:NavHelper.NavigateTo="views:MainPage" Icon="Home" Height="160" CornerRadius="6"/>
+            <winui:NavigationViewItem x:Uid="Shell_New_Task" helpers:NavHelper.NavigateTo="views:New_TaskPage" Icon="Add" Height="160" CornerRadius="6"/>
+            <winui:NavigationViewItem x:Uid="Shell_Calendar" helpers:NavHelper.NavigateTo="views:CalendarPage" Icon="Calendar" Height="160" CornerRadius="6"/>
+            <winui:NavigationViewItem x:Uid="Shell_Social" helpers:NavHelper.NavigateTo="views:SocialPage" Icon="Contact" Height="160" CornerRadius="6"/>
         </winui:NavigationView.MenuItems>
         <Grid>
             <Frame x:Name="shellFrame" Margin="-50,0,0,0"  />

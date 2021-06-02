@@ -113,6 +113,11 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Visibility" />
+      <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="UseLayoutRounding" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
@@ -120,6 +125,7 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="CornerRadius" />
       <RootEvent Name="SelectedDatesChanged" />
     </RootType>
     <RootType FullName="GameOn.Views.CalendarPage" />
@@ -158,6 +164,19 @@
       <RootProperty Name="Fill" />
     </RootType>
     <RootType FullName="GameOn.Views.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ColorPicker">
+      <RootProperty Name="Name" />
+      <RootProperty Name="ColorSpectrumShape" />
+      <RootProperty Name="IsColorChannelTextInputVisible" />
+      <RootProperty Name="IsHexInputVisible" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Background" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
@@ -167,12 +186,14 @@
       <RootProperty Name="PlaceholderText" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Width" />
+      <RootProperty Name="CornerRadius" />
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
       <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="CornerRadius" />
       <RootProperty Name="Items" />
       <RootProperty Name="PlaceholderText" />
     </RootType>
@@ -182,11 +203,13 @@
       <RootProperty Name="Width" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="ClockIdentifier" />
+      <RootProperty Name="CornerRadius" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.CalendarDatePicker">
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="CornerRadius" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
       <RootProperty Name="Content" />
@@ -209,6 +232,7 @@
     </RootType>
     <RootType FullName="GameOn.Views.SettingsPage" />
     <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationView">
+      <RootProperty Name="CornerRadius" />
       <RootProperty Name="IsBackButtonVisible" />
       <RootProperty Name="IsBackEnabled" />
       <RootProperty Name="SelectedItem" />
@@ -223,6 +247,7 @@
     <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItem">
       <RootProperty Name="Icon" />
       <RootProperty Name="Height" />
+      <RootProperty Name="CornerRadius" />
     </RootType>
     <RootType FullName="GameOn.Helpers.NavHelper">
       <RootMethod Name="GetNavigateTo" />

@@ -40,22 +40,26 @@ namespace GameOn.Views
                     {
                         TodayT1.Visibility = 0;
                         TodayT1.Content = "" + PlayerData.playerTasks[i]._name + "     " + PlayerData.playerTasks[i]._xp + " XP " + PlayerData.playerTasks[i]._coins + " Coins";
+                        TodayT1.Background = PlayerData.playerTasks[i]._color;
                     }
                         
                     if (i == 1)
                     {
                         TodayT2.Visibility = 0;
                         TodayT2.Content = "" + PlayerData.playerTasks[i]._name + "     " + PlayerData.playerTasks[i]._xp + " XP " + PlayerData.playerTasks[i]._coins + " Coins";
+                        TodayT1.Background = PlayerData.playerTasks[i]._color;
                     }
                     if (i == 2)
                     {
                         TodayT3.Visibility = 0;
                         TodayT3.Content = "" + PlayerData.playerTasks[i]._name + "     " + PlayerData.playerTasks[i]._xp + " XP " + PlayerData.playerTasks[i]._coins + " Coins";
+                        TodayT1.Background = PlayerData.playerTasks[i]._color;
                     }
                     if (i == 3)
                     {
                         TodayT4.Visibility = 0;
                         TodayT4.Content = "" + PlayerData.playerTasks[i]._name + "     " + PlayerData.playerTasks[i]._xp + " XP " + PlayerData.playerTasks[i]._coins + " Coins";
+                        TodayT1.Background = PlayerData.playerTasks[i]._color;
                     }
 
                 }

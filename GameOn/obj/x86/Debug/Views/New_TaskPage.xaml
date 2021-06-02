@@ -10,20 +10,20 @@
     <Grid x:ConnectionId='2' x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
         <Grid
             Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}" Width="450" Height="800">
-            <Button x:ConnectionId='3' Content="Save" Margin="290,76,0,0" VerticalAlignment="Top" FontSize="20" Width="89"                   />
-            <TextBox x:ConnectionId='4' x:Name="TaskName" HorizontalAlignment="Left" Margin="71,76,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" PlaceholderText="Task Title" FontSize="20" Width="170"/>
+            <Button x:ConnectionId='5' Content="Save" Margin="290,76,0,0" VerticalAlignment="Top" FontSize="20" Width="89"                    CornerRadius="6"/>
+            <TextBox x:ConnectionId='6' x:Name="TaskName" HorizontalAlignment="Left" Margin="71,76,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" PlaceholderText="Task Title" FontSize="20" Width="170" CornerRadius="6"/>
             <TextBlock HorizontalAlignment="Left" Margin="71,166,0,0" Text="Task Type:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
-            <ComboBox Margin="259,162,0,0" Width="120" FontSize="20">
+            <ComboBox Margin="259,162,0,0" Width="120" FontSize="20" CornerRadius="6">
                 <ComboBoxItem Content="Active" FontSize="20"/>
                 <ComboBoxItem Content="Standing" FontSize="20"/>
                 <ComboBoxItem Content="Seated" FontSize="20"/>
             </ComboBox>
             <TextBlock HorizontalAlignment="Left" Margin="71,243,0,0" Text="Time:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
-            <TimePicker x:ConnectionId='5' x:Name="TaskTime" Margin="136,237,0,0" VerticalAlignment="Top" Width="243" FontSize="20" ClockIdentifier="12HourClock"/>
+            <TimePicker x:ConnectionId='7' x:Name="TaskTime" Margin="136,237,0,0" VerticalAlignment="Top" Width="243" FontSize="20" ClockIdentifier="12HourClock" CornerRadius="6"/>
             <TextBlock HorizontalAlignment="Left" Margin="71,320,0,0" Text="Date:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
-            <CalendarDatePicker x:ConnectionId='6' x:Name="TaskDate" Margin="224,317,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <CalendarDatePicker x:ConnectionId='8' x:Name="TaskDate" Margin="224,317,0,0" VerticalAlignment="Top" FontSize="20" CornerRadius="6"/>
             <TextBlock HorizontalAlignment="Left" Margin="71,397,0,0" Text="Repeating:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
-            <ComboBox Margin="169,393,0,0" Width="210" FontSize="20">
+            <ComboBox Margin="169,393,0,0" Width="210" FontSize="20" CornerRadius="6">
                 <ComboBoxItem Content="Do Not Repeat" FontSize="20"/>
                 <ComboBoxItem Content="Weekly" FontSize="20"/>
                 <ComboBoxItem Content="Bi-Weekly" FontSize="20"/>
@@ -38,12 +38,12 @@
             <CheckBox Content="Thu" Margin="319,603,0,0" VerticalAlignment="Top" FontSize="20" Width="76"/>
             <CheckBox Content="Fri" Margin="319,635,0,0" VerticalAlignment="Top" FontSize="20" Width="76"/>
             <CheckBox Content="Sat" Margin="319,667,0,0" VerticalAlignment="Top" FontSize="20" Width="76"/>
-            <TextBox x:ConnectionId='7' x:Name="TaskNotes" HorizontalAlignment="Left" Margin="71,475,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" PlaceholderText="Notes..." Height="224" Width="231"/>
-            <!--
-                The SystemControlPageBackgroundChromeLowBrush background represents where you should place your content. 
-                Place your content here.
-            -->
+            <TextBox x:ConnectionId='9' x:Name="TaskNotes" HorizontalAlignment="Left" Margin="71,539,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" PlaceholderText="Notes..." Height="160" Width="231" CornerRadius="6"/>
+            <TextBlock HorizontalAlignment="Left" Margin="71,469,0,0" Text="Color:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+            <Button x:ConnectionId='10' Content="" Name="ColorButton" Margin="169,463,0,0" VerticalAlignment="Top" Width="133" Height="39" Background="#FF73B2F1" BorderThickness="2,2,2,2" UseLayoutRounding="True" CornerRadius="6"                     />
         </Grid>
+        <ColorPicker x:ConnectionId='3' Name="ColorPicker" ColorSpectrumShape="Ring" IsColorChannelTextInputVisible="False" IsHexInputVisible="False" HorizontalAlignment="Center" Margin="0,404,0,0" VerticalAlignment="Top" Height="433" Width="342" Visibility="Collapsed" Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}"/>
+        <Button x:ConnectionId='4' Name="ColorDoneButton" Content="Done" Margin="0,751,0,0" VerticalAlignment="Top" FontSize="20" CornerRadius="6" Visibility="Collapsed" HorizontalAlignment="Center"                              />
     </Grid>
 </Page>
 
