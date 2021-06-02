@@ -38,11 +38,11 @@
             <TextBlock HorizontalAlignment="Left" Margin="166,687,0,0" Text="Graph" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" FontSize="25" RenderTransformOrigin="-0.286,0.445" />
 
 
-
+            <ComboBox Width="120" Margin="290,591,0,0" PlaceholderText="Weekly"/>
+            <ComboBox Width="120" Margin="10,514,0,0" PlaceholderText="Coins"/>
 
         </Grid>
-        <ComboBox Width="120" Margin="617,581,0,0" PlaceholderText="Weekly"/>
-        <ComboBox Width="120" Margin="527,692,0,0" PlaceholderText="Coins"/>
+        
 
     </Grid>
 </Page>

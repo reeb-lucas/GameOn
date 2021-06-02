@@ -2,7 +2,6 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using GameOn;
-
 using Windows.UI.Xaml.Controls;
 
 namespace GameOn.Views
@@ -27,11 +26,38 @@ namespace GameOn.Views
             CurrentLevel.Text = "" + level;
             NextLevel.Text = "" + (level + 1);
             LevelRect.Width = totalXp / 3;
-            //TODO: width of progress rectangle as fraction of setwidth/totwidth = totxp/xptonext
 
             CoinText.Text = "Coins: " + PlayerData.coins;
             UsernameText.Text = PlayerData.username;
-                
+
+            if (PlayerData.playerTasks.Count > 0)
+            {
+                for (int i = 0; i < PlayerData.playerTasks.Count; i++)
+                {
+                    if (i == 0)
+                    {
+                        TodayT1.Visibility = 0;
+                        TodayT1.Content = "" + PlayerData.playerTasks[i]._name + "     " + PlayerData.playerTasks[i]._xp + " XP " + PlayerData.playerTasks[i]._coins + " Coins";
+                    }
+                        
+                    if (i == 1)
+                    {
+                        TodayT2.Visibility = 0;
+                        TodayT2.Content = "" + PlayerData.playerTasks[i]._name + "     " + PlayerData.playerTasks[i]._xp + " XP " + PlayerData.playerTasks[i]._coins + " Coins";
+                    }
+                    if (i == 2)
+                    {
+                        TodayT3.Visibility = 0;
+                        TodayT3.Content = "" + PlayerData.playerTasks[i]._name + "     " + PlayerData.playerTasks[i]._xp + " XP " + PlayerData.playerTasks[i]._coins + " Coins";
+                    }
+                    if (i == 3)
+                    {
+                        TodayT4.Visibility = 0;
+                        TodayT4.Content = "" + PlayerData.playerTasks[i]._name + "     " + PlayerData.playerTasks[i]._xp + " XP " + PlayerData.playerTasks[i]._coins + " Coins";
+                    }
+
+                }
+            }
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -61,6 +87,63 @@ namespace GameOn.Views
                     PrimaryButtonText = "Finished!"
                 };
                 ContentDialogResult result = await todayOneD.ShowAsync();
+                if (result == ContentDialogResult.Primary)
+                {
+                    TodayT1.Visibility = (Windows.UI.Xaml.Visibility)1;
+                    PlayerData.xp += PlayerData.playerTasks[0]._xp;
+                    LevelRect.Width = PlayerData.xp / 3;
+                }
+            }
+            if (sender == TodayT2)
+            {
+                ContentDialog todayOneD = new ContentDialog
+                {
+                    Title = PlayerData.playerTasks[1]._name,
+                    Content = PlayerData.playerTasks[1]._notes,
+                    CloseButtonText = "OK!",
+                    PrimaryButtonText = "Finished!"
+                };
+                ContentDialogResult result = await todayOneD.ShowAsync();
+                if (result == ContentDialogResult.Primary)
+                {
+                    TodayT2.Visibility = (Windows.UI.Xaml.Visibility)1;
+                    PlayerData.xp += PlayerData.playerTasks[1]._xp;
+                    LevelRect.Width = PlayerData.xp / 3;
+                }
+            }
+            if (sender == TodayT3)
+            {
+                ContentDialog todayOneD = new ContentDialog
+                {
+                    Title = PlayerData.playerTasks[2]._name,
+                    Content = PlayerData.playerTasks[2]._notes,
+                    CloseButtonText = "OK!",
+                    PrimaryButtonText = "Finished!"
+                };
+                ContentDialogResult result = await todayOneD.ShowAsync();
+                if (result == ContentDialogResult.Primary)
+                {
+                    TodayT3.Visibility = (Windows.UI.Xaml.Visibility)1;
+                    PlayerData.xp += PlayerData.playerTasks[2]._xp;
+                    LevelRect.Width = PlayerData.xp / 3;
+                }
+            }
+            if (sender == TodayT4)
+            {
+                ContentDialog todayOneD = new ContentDialog
+                {
+                    Title = PlayerData.playerTasks[3]._name,
+                    Content = PlayerData.playerTasks[3]._notes,
+                    CloseButtonText = "OK!",
+                    PrimaryButtonText = "Finished!"
+                };
+                ContentDialogResult result = await todayOneD.ShowAsync();
+                if (result == ContentDialogResult.Primary)
+                {
+                    TodayT4.Visibility = (Windows.UI.Xaml.Visibility)1;
+                    PlayerData.xp += PlayerData.playerTasks[3]._xp;
+                    LevelRect.Width = PlayerData.xp / 3;
+                }
             }
         }
     }

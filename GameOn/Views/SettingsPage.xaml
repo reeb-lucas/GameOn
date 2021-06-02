@@ -54,7 +54,7 @@
                         FontSize="20"
                         Width="200"
                         Margin="120,20,0,0"
-                        Click="Sure_Button_Click">
+                        Click="Reset_Button_Click" >
                     </Button>
                     <Button
                         x:Uid="Settings_About"

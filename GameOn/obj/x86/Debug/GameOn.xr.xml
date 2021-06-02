@@ -266,6 +266,7 @@
       <RootEvent Name="PrimaryButtonClick" />
       <RootEvent Name="SecondaryButtonClick" />
     </RootType>
+    <RootType FullName="GameOn.Views.SureCheckContentDialog" />
     <RootType FullName="GameOn.Views.ThemeContentDialog" />
   </Roots.RootTypes>
 </Roots>

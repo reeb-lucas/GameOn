@@ -110,23 +110,11 @@ namespace GameOn.Views
             {
                 Title = "Confirm",
                 Content = "Are You Sure?",
-                CloseButtonText = "Confirm"
+                PrimaryButtonText = "Cancel",
+                SecondaryButtonText = "Confirm"
             };
 
             await confirmation.ShowAsync();
-        }
-
-        private async void Backup_Button_Click(object sender, RoutedEventArgs e)
-        {
-            ContentDialog backup = new ContentDialog()
-            {
-                Title = "Backup",
-                Content = "Choose Your Account Type",
-                PrimaryButtonText = "Google",
-                SecondaryButtonText = "Microsoft"
-            };
-
-            await backup.ShowAsync();
         }
 
         private async void About_Button_Click(object sender, RoutedEventArgs e)
@@ -139,6 +127,13 @@ namespace GameOn.Views
             };
 
             await about.ShowAsync();
+        }
+
+        private async void Reset_Button_Click(object sender, RoutedEventArgs e)
+        {
+            SureCheckContentDialog check = new SureCheckContentDialog();
+
+            await check.ShowAsync();
         }
     }
 }
