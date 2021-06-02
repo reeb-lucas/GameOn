@@ -8,8 +8,6 @@ namespace GameOn.Views
 {
     public sealed partial class MainPage : Page, INotifyPropertyChanged
     {
-        
-
         public MainPage()
         {
             InitializeComponent();
@@ -95,8 +93,7 @@ namespace GameOn.Views
                 ContentDialogResult result = await todayOneD.ShowAsync();
                 if (result == ContentDialogResult.Primary)
                 {
-                    //TODO: Change color to indicate done? or just make button invisible?
-                    //TodayT1.Background = ;
+                    TodayT1.Visibility = (Windows.UI.Xaml.Visibility)1;
                     PlayerData.xp += PlayerData.playerTasks[0]._xp;
                     LevelRect.Width = PlayerData.xp / 3;
                 }
@@ -113,8 +110,7 @@ namespace GameOn.Views
                 ContentDialogResult result = await todayOneD.ShowAsync();
                 if (result == ContentDialogResult.Primary)
                 {
-                    //TODO: Change color to indicate done? or just make button invisible?
-                    //TodayT2.Background = ;
+                    TodayT2.Visibility = (Windows.UI.Xaml.Visibility)1;
                     PlayerData.xp += PlayerData.playerTasks[1]._xp;
                     LevelRect.Width = PlayerData.xp / 3;
                 }
@@ -131,8 +127,7 @@ namespace GameOn.Views
                 ContentDialogResult result = await todayOneD.ShowAsync();
                 if (result == ContentDialogResult.Primary)
                 {
-                    //TODO: Change color to indicate done? or just make button invisible?
-                    //TodayT3.Background = ;
+                    TodayT3.Visibility = (Windows.UI.Xaml.Visibility)1;
                     PlayerData.xp += PlayerData.playerTasks[2]._xp;
                     LevelRect.Width = PlayerData.xp / 3;
                 }
@@ -149,8 +144,7 @@ namespace GameOn.Views
                 ContentDialogResult result = await todayOneD.ShowAsync();
                 if (result == ContentDialogResult.Primary)
                 {
-                    //TODO: Change color to indicate done? or just make button invisible?
-                    //TodayT4.Background = ;
+                    TodayT4.Visibility = (Windows.UI.Xaml.Visibility)1;
                     PlayerData.xp += PlayerData.playerTasks[3]._xp;
                     LevelRect.Width = PlayerData.xp / 3;
                 }
