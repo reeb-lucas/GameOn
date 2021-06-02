@@ -21,6 +21,24 @@ namespace GameOn.Views
         public SocialPage()
         {
             InitializeComponent();
+
+            int level = PlayerData.level;
+            int totalXp = PlayerData.xp;
+            int xpToNext = level * 1000;
+
+            if (totalXp / xpToNext == 1)
+            {
+                PlayerData.level = level += 1;
+                level += 1;
+            }
+
+            LevelText.Text = "Level: " + level;
+
+            CoinText.Text = "Coins: " + PlayerData.coins;
+            UsernameText.Text = PlayerData.username;
+
+            LeaderCoins.Text = "Coins: " + PlayerData.coins;
+            LeaderUser.Text = PlayerData.username;
         }
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)

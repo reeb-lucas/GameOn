@@ -30,13 +30,36 @@ namespace GameOn.Views
 
         private void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 
-        private void Save_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        private async void Save_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
+            if (TaskDate.Date == null || TaskTime.SelectedTime == null || TaskName.Text == "")
+            {
+                ContentDialog ErrorBox = new ContentDialog
+                {
+                    Title = "Error",
+                    Content = "Please enter all the required data before saving",
+                    CloseButtonText = "Ok",
+
+                };
+                await ErrorBox.ShowAsync();
+                return;
+            }
             DateTime dateTime = new DateTime(TaskDate.Date.Value.Year, TaskDate.Date.Value.Month, TaskDate.Date.Value.Day, TaskTime.SelectedTime.Value.Hours, TaskTime.SelectedTime.Value.Minutes, TaskTime.SelectedTime.Value.Seconds);
 
             PlayerTask newTask = new PlayerTask(dateTime, 10, 100, TaskName.Text, TaskNotes.Text, ColorButton.Background);
 
             PlayerData.playerTasks.Add(newTask);
+
+
+
+            ContentDialog Completed = new ContentDialog
+            {
+                Title = "Complete!",
+                Content = "Task has been saved",
+                CloseButtonText = "Ok",
+
+            };
+            await Completed.ShowAsync();
         }
 
         private void Button_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)

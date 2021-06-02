@@ -100,71 +100,31 @@ namespace GameOn.Views
             
         }
 
-        private async void Task_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        
+         private async void Task_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            if (sender == TodayT1)
+            int taskIndex = -1;
+            if (sender == TodayT1) taskIndex = 0;
+            else if (sender == TodayT2) taskIndex = 1;
+            else if (sender == TodayT3) taskIndex = 2;
+            else if (sender == TodayT4) taskIndex = 3;
+
+
+            ContentDialog todayOneD = new ContentDialog
             {
-                ContentDialog todayOneC = new ContentDialog
-                {
-                    Title = PlayerData.playerTasks[0]._name,
-                    Content = PlayerData.playerTasks[0]._notes,
-                    CloseButtonText = "OK!",
-                    PrimaryButtonText = "Finished!"
-                };
-                ContentDialogResult result = await todayOneC.ShowAsync();
-                if (result == ContentDialogResult.Primary)
-                {
-                    TodayT1.Visibility = (Windows.UI.Xaml.Visibility)1;
-                    PlayerData.xp += PlayerData.playerTasks[0]._xp;
-                }
-            }
-            if (sender == TodayT2)
+                Title = PlayerData.playerTasks[taskIndex]._name,
+                Content = PlayerData.playerTasks[taskIndex]._notes,
+                CloseButtonText = "OK!",
+                PrimaryButtonText = "Finished!"
+            };
+            ContentDialogResult result = await todayOneD.ShowAsync();
+            if (result == ContentDialogResult.Primary)
             {
-                ContentDialog todayOneC = new ContentDialog
-                {
-                    Title = PlayerData.playerTasks[1]._name,
-                    Content = PlayerData.playerTasks[1]._notes,
-                    CloseButtonText = "OK!",
-                    PrimaryButtonText = "Finished!"
-                };
-                ContentDialogResult result = await todayOneC.ShowAsync();
-                if (result == ContentDialogResult.Primary)
-                {
-                    TodayT2.Visibility = (Windows.UI.Xaml.Visibility)1;
-                    PlayerData.xp += PlayerData.playerTasks[1]._xp;
-                }
-            }
-            if (sender == TodayT3)
-            {
-                ContentDialog todayOneC = new ContentDialog
-                {
-                    Title = PlayerData.playerTasks[2]._name,
-                    Content = PlayerData.playerTasks[2]._notes,
-                    CloseButtonText = "OK!",
-                    PrimaryButtonText = "Finished!"
-                };
-                ContentDialogResult result = await todayOneC.ShowAsync();
-                if (result == ContentDialogResult.Primary)
-                {
-                    TodayT3.Visibility = (Windows.UI.Xaml.Visibility)1;
-                    PlayerData.xp += PlayerData.playerTasks[2]._xp;
-                }
-            }
-            if (sender == TodayT4)
-            {
-                ContentDialog todayOneC = new ContentDialog
-                {
-                    Title = PlayerData.playerTasks[3]._name,
-                    Content = PlayerData.playerTasks[3]._notes,
-                    CloseButtonText = "OK!",
-                    PrimaryButtonText = "Finished!"
-                };
-                ContentDialogResult result = await todayOneC.ShowAsync();
-                if (result == ContentDialogResult.Primary)
-                {
-                    TodayT4.Visibility = (Windows.UI.Xaml.Visibility)1;
-                    PlayerData.xp += PlayerData.playerTasks[3]._xp;
-                }
+                ((Button)sender).Visibility = (Windows.UI.Xaml.Visibility)1;
+                PlayerData.xp += PlayerData.playerTasks[taskIndex]._xp;
+
+                PlayerData.playerTasks.RemoveAt(taskIndex );
+
             }
         }
     }

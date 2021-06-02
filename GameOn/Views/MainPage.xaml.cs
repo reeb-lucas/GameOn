@@ -3,14 +3,28 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using GameOn;
 using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Media;
+
 
 namespace GameOn.Views
 {
     public sealed partial class MainPage : Page, INotifyPropertyChanged
     {
+        static bool started = false;
+
         public MainPage()
         {
             InitializeComponent();
+
+            if (!started)
+            {
+                PlayerTask newTask = new PlayerTask(DateTime.Now, 10, 100, "Welcome", "Wave to let us know you found this note!", new SolidColorBrush());
+
+                PlayerData.playerTasks.Add(newTask);
+                started = true;
+            }
+
+
             int level = PlayerData.level;
             int totalXp = PlayerData.xp;
             int xpToNext = level * 1000;
@@ -81,72 +95,42 @@ namespace GameOn.Views
 
         private async void Task_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            if(sender == TodayT1)
+            int taskIndex = -1;
+            if (sender == TodayT1) taskIndex = 0;
+            else if (sender == TodayT2) taskIndex = 1;
+            else if (sender == TodayT3) taskIndex = 2;
+            else if (sender == TodayT4) taskIndex = 3;
+
+            if (taskIndex >= 0)
             {
+
                 ContentDialog todayOneD = new ContentDialog
                 {
-                    Title = PlayerData.playerTasks[0]._name,
-                    Content = PlayerData.playerTasks[0]._notes,
+                    Title = PlayerData.playerTasks[taskIndex]._name,
+                    Content = PlayerData.playerTasks[taskIndex]._notes,
                     CloseButtonText = "OK!",
                     PrimaryButtonText = "Finished!"
                 };
                 ContentDialogResult result = await todayOneD.ShowAsync();
                 if (result == ContentDialogResult.Primary)
                 {
-                    TodayT1.Visibility = (Windows.UI.Xaml.Visibility)1;
-                    PlayerData.xp += PlayerData.playerTasks[0]._xp;
+                    ((Button)sender).Visibility = (Windows.UI.Xaml.Visibility)1;
+                    PlayerData.xp += PlayerData.playerTasks[taskIndex]._xp;
                     LevelRect.Width = PlayerData.xp / 3;
-                }
-            }
-            if (sender == TodayT2)
-            {
-                ContentDialog todayOneD = new ContentDialog
-                {
-                    Title = PlayerData.playerTasks[1]._name,
-                    Content = PlayerData.playerTasks[1]._notes,
-                    CloseButtonText = "OK!",
-                    PrimaryButtonText = "Finished!"
-                };
-                ContentDialogResult result = await todayOneD.ShowAsync();
-                if (result == ContentDialogResult.Primary)
-                {
-                    TodayT2.Visibility = (Windows.UI.Xaml.Visibility)1;
-                    PlayerData.xp += PlayerData.playerTasks[1]._xp;
-                    LevelRect.Width = PlayerData.xp / 3;
-                }
-            }
-            if (sender == TodayT3)
-            {
-                ContentDialog todayOneD = new ContentDialog
-                {
-                    Title = PlayerData.playerTasks[2]._name,
-                    Content = PlayerData.playerTasks[2]._notes,
-                    CloseButtonText = "OK!",
-                    PrimaryButtonText = "Finished!"
-                };
-                ContentDialogResult result = await todayOneD.ShowAsync();
-                if (result == ContentDialogResult.Primary)
-                {
-                    TodayT3.Visibility = (Windows.UI.Xaml.Visibility)1;
-                    PlayerData.xp += PlayerData.playerTasks[2]._xp;
-                    LevelRect.Width = PlayerData.xp / 3;
-                }
-            }
-            if (sender == TodayT4)
-            {
-                ContentDialog todayOneD = new ContentDialog
-                {
-                    Title = PlayerData.playerTasks[3]._name,
-                    Content = PlayerData.playerTasks[3]._notes,
-                    CloseButtonText = "OK!",
-                    PrimaryButtonText = "Finished!"
-                };
-                ContentDialogResult result = await todayOneD.ShowAsync();
-                if (result == ContentDialogResult.Primary)
-                {
-                    TodayT4.Visibility = (Windows.UI.Xaml.Visibility)1;
-                    PlayerData.xp += PlayerData.playerTasks[3]._xp;
-                    LevelRect.Width = PlayerData.xp / 3;
+
+                    PlayerData.playerTasks.RemoveAt(taskIndex );
+
+
+                    //Update xp and level text
+                    int level = PlayerData.level;
+                    int totalXp = PlayerData.xp;
+                    int xpToNext = level * 1000;
+
+                    LevelText.Text = "Level: " + level;
+                    XpText.Text = totalXp + "/" + xpToNext;
+                    CurrentLevel.Text = "" + level;
+                    NextLevel.Text = "" + (level + 1);
+                    LevelRect.Width = totalXp / 3;
                 }
             }
         }

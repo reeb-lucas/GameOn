@@ -1136,3 +1136,10 @@ C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\obj\x86\Debug\ProjectArchitec
 C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_637214786760000000.json
 C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425067200000000.json
 C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425103200000000.json
+C:\Users\kohlt\Documents\GitHub\GameOn\GameOn\bin\x86\Debug\Views\SureCheckContentDialog.xbf
+C:\Users\kohlt\Documents\GitHub\GameOn\GameOn\obj\x86\Debug\Views\SureCheckContentDialog.g.i.cs
+C:\Users\kohlt\Documents\GitHub\GameOn\GameOn\obj\x86\Debug\Views\SureCheckContentDialog.g.cs
+C:\Users\kohlt\Documents\GitHub\GameOn\GameOn\obj\x86\Debug\Views\SureCheckContentDialog.xaml
+C:\Users\kohlt\Documents\GitHub\GameOn\GameOn\obj\x86\Debug\Views\SureCheckContentDialog.xbf
+C:\Users\kohlt\Documents\GitHub\GameOn\GameOn\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425067200000000.json
+C:\Users\kohlt\Documents\GitHub\GameOn\GameOn\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425103200000000.json
