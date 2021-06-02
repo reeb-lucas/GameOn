@@ -1135,3 +1135,4 @@ C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\obj\x86\Debug\MultipleQualifi
 C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_637214786760000000.json
 C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425067200000000.json
+C:\Users\User\Source\Repos\reeblucas\GameOn\GameOn\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425103200000000.json
