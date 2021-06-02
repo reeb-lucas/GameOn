@@ -12,11 +12,11 @@
     <Grid x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
         <Grid
             Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}" Width="450" Height="800">
-            <CalendarView Margin="24,54,0,0" VerticalAlignment="Top" Width="351" SelectedDatesChanged="Calender_DateChange" x:Name="Calendar" CornerRadius="6"/>
+            <CalendarView Margin="24,54,0,0" VerticalAlignment="Top" Width="351" SelectedDatesChanged="Calender_DateChange" x:Name="Calendar" CornerRadius="6" Height="420"/>
         </Grid>
-        <Button Name="Button1" Content="Task 1           ## XP # Coins" FontSize="20" Width="353" BorderBrush="#FF646464" FocusVisualSecondaryBrush="{x:Null}" Click="Task_Click" HorizontalAlignment="Center" Margin="0,496,0,0" VerticalAlignment="Top"/>
-        <Button Name="Button2" Margin="0,542,0,0" Content="Task 2           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="353" BorderBrush="#FF646464" HorizontalAlignment="Center"/>
-        <Button Name="Button3" Margin="0,587,0,0" Content="Task 3           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="353" BorderBrush="#FF646464" HorizontalAlignment="Center"/>
-        <Button Name="Button4" Margin="0,632,0,0" Content="Task 4           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="354" BorderBrush="#FF646464" HorizontalAlignment="Center"/>
+        <Button HorizontalAlignment="Center" Margin="0,522,0,0" Content="Task 1           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="273" BorderBrush="#FF646464" Click="Task_Click" Name="TodayT1" Visibility="Collapsed" CornerRadius="6"/>
+        <Button HorizontalAlignment="Center" Margin="0,567,0,0" Content="Task 2           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="273" BorderBrush="#FF646464" Click="Task_Click" Name="TodayT2" Visibility="Collapsed" CornerRadius="6"/>
+        <Button HorizontalAlignment="Center" Margin="0,612,0,0" Content="Task 3           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="273" BorderBrush="#FF646464" Click="Task_Click" Name="TodayT3" Visibility="Collapsed" CornerRadius="6"/>
+        <Button HorizontalAlignment="Center" Margin="0,657,0,0" Content="Task 4           ##XP # Coins" VerticalAlignment="Top" FontSize="20" Width="273" BorderBrush="#FF646464" Click="Task_Click" Name="TodayT4" Visibility="Collapsed" CornerRadius="6"/>
     </Grid>
 </Page>

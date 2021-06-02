@@ -34,6 +34,38 @@ namespace GameOn.Views
         {
             InitializeComponent();
             Loaded += CalendarPage_Loaded;
+            if (PlayerData.playerTasks.Count > 0)
+            {
+                for (int i = 0; i < PlayerData.playerTasks.Count; i++)
+                {
+                    if (i == 0)
+                    {
+                        TodayT1.Visibility = 0;
+                        TodayT1.Content = "" + PlayerData.playerTasks[i]._name + "     " + PlayerData.playerTasks[i]._xp + " XP " + PlayerData.playerTasks[i]._coins + " Coins";
+                        TodayT1.Background = PlayerData.playerTasks[i]._color;
+                    }
+
+                    if (i == 1)
+                    {
+                        TodayT2.Visibility = 0;
+                        TodayT2.Content = "" + PlayerData.playerTasks[i]._name + "     " + PlayerData.playerTasks[i]._xp + " XP " + PlayerData.playerTasks[i]._coins + " Coins";
+                        TodayT1.Background = PlayerData.playerTasks[i]._color;
+                    }
+                    if (i == 2)
+                    {
+                        TodayT3.Visibility = 0;
+                        TodayT3.Content = "" + PlayerData.playerTasks[i]._name + "     " + PlayerData.playerTasks[i]._xp + " XP " + PlayerData.playerTasks[i]._coins + " Coins";
+                        TodayT1.Background = PlayerData.playerTasks[i]._color;
+                    }
+                    if (i == 3)
+                    {
+                        TodayT4.Visibility = 0;
+                        TodayT4.Content = "" + PlayerData.playerTasks[i]._name + "     " + PlayerData.playerTasks[i]._xp + " XP " + PlayerData.playerTasks[i]._coins + " Coins";
+                        TodayT1.Background = PlayerData.playerTasks[i]._color;
+                    }
+
+                }
+            }
         }
 
         private async void CalendarPage_Loaded(object sender, RoutedEventArgs e)
@@ -65,25 +97,75 @@ namespace GameOn.Views
 
         private void Calender_DateChange(CalendarView sender, CalendarViewSelectedDatesChangedEventArgs args)
         {
-            if((string)Button1.Content == "Task 1           ## XP # Coins")
-            {
-                Button1.Content = "Task A           ## XP # Coins";
-                Button2.Content = "Task B           ## XP # Coins";
-                Button3.Content = "Task C           ## XP # Coins";
-                Button4.Content = "Task D           ## XP # Coins";
-            }
-            else
-            {
-                Button1.Content = "Task 1           ## XP # Coins";
-                Button2.Content = "Task 2           ## XP # Coins";
-                Button3.Content = "Task 3           ## XP # Coins";
-                Button4.Content = "Task 4           ## XP # Coins";
-            }
+            
         }
 
-        private void Task_Click(object sender, RoutedEventArgs e)
+        private async void Task_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-
+            if (sender == TodayT1)
+            {
+                ContentDialog todayOneC = new ContentDialog
+                {
+                    Title = PlayerData.playerTasks[0]._name,
+                    Content = PlayerData.playerTasks[0]._notes,
+                    CloseButtonText = "OK!",
+                    PrimaryButtonText = "Finished!"
+                };
+                ContentDialogResult result = await todayOneC.ShowAsync();
+                if (result == ContentDialogResult.Primary)
+                {
+                    TodayT1.Visibility = (Windows.UI.Xaml.Visibility)1;
+                    PlayerData.xp += PlayerData.playerTasks[0]._xp;
+                }
+            }
+            if (sender == TodayT2)
+            {
+                ContentDialog todayOneC = new ContentDialog
+                {
+                    Title = PlayerData.playerTasks[1]._name,
+                    Content = PlayerData.playerTasks[1]._notes,
+                    CloseButtonText = "OK!",
+                    PrimaryButtonText = "Finished!"
+                };
+                ContentDialogResult result = await todayOneC.ShowAsync();
+                if (result == ContentDialogResult.Primary)
+                {
+                    TodayT2.Visibility = (Windows.UI.Xaml.Visibility)1;
+                    PlayerData.xp += PlayerData.playerTasks[1]._xp;
+                }
+            }
+            if (sender == TodayT3)
+            {
+                ContentDialog todayOneC = new ContentDialog
+                {
+                    Title = PlayerData.playerTasks[2]._name,
+                    Content = PlayerData.playerTasks[2]._notes,
+                    CloseButtonText = "OK!",
+                    PrimaryButtonText = "Finished!"
+                };
+                ContentDialogResult result = await todayOneC.ShowAsync();
+                if (result == ContentDialogResult.Primary)
+                {
+                    TodayT3.Visibility = (Windows.UI.Xaml.Visibility)1;
+                    PlayerData.xp += PlayerData.playerTasks[2]._xp;
+                }
+            }
+            if (sender == TodayT4)
+            {
+                ContentDialog todayOneC = new ContentDialog
+                {
+                    Title = PlayerData.playerTasks[3]._name,
+                    Content = PlayerData.playerTasks[3]._notes,
+                    CloseButtonText = "OK!",
+                    PrimaryButtonText = "Finished!"
+                };
+                ContentDialogResult result = await todayOneC.ShowAsync();
+                if (result == ContentDialogResult.Primary)
+                {
+                    TodayT4.Visibility = (Windows.UI.Xaml.Visibility)1;
+                    PlayerData.xp += PlayerData.playerTasks[3]._xp;
+                }
+            }
         }
     }
 }

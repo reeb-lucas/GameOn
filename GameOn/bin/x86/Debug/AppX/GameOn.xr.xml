@@ -104,14 +104,13 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Name" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="Content" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Width" />
       <RootProperty Name="BorderBrush" />
-      <RootProperty Name="FocusVisualSecondaryBrush" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="CornerRadius" />
       <RootProperty Name="Height" />
@@ -120,12 +119,12 @@
       <RootProperty Name="UseLayoutRounding" />
       <RootEvent Name="Click" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.CalendarView">
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Height" />
       <RootEvent Name="SelectedDatesChanged" />
     </RootType>
     <RootType FullName="GameOn.Views.CalendarPage" />
