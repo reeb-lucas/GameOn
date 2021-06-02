@@ -45,8 +45,16 @@ namespace GameOn.Views
                 return;
             }
             DateTime dateTime = new DateTime(TaskDate.Date.Value.Year, TaskDate.Date.Value.Month, TaskDate.Date.Value.Day, TaskTime.SelectedTime.Value.Hours, TaskTime.SelectedTime.Value.Minutes, TaskTime.SelectedTime.Value.Seconds);
-
-            PlayerTask newTask = new PlayerTask(dateTime, 10, 100, TaskName.Text, TaskNotes.Text, ColorButton.Background);
+            int taskXP = 100;
+            if (TypeComboBox.SelectedIndex == 0)
+            {
+                taskXP = 500;
+            }
+            else if (TypeComboBox.SelectedIndex == 1)
+            {
+                taskXP = 200;
+            }
+            PlayerTask newTask = new PlayerTask(dateTime, 10, taskXP, TaskName.Text, TaskNotes.Text, ColorButton.Background);
 
             PlayerData.playerTasks.Add(newTask);
 
