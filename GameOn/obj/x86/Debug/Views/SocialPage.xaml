@@ -10,7 +10,7 @@
     Style="{StaticResource PageStyle}"
     mc:Ignorable="d">
 
-    <Grid x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
+    <Grid x:ConnectionId='2' x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
         <Grid
             Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}" Width="450" Height="800">
             <Image HorizontalAlignment="Left" Height="55" Margin="69,300,0,0" VerticalAlignment="Top" Width="43" RenderTransformOrigin="0.5,0.5" Source="/Assets/blank_profile.png"/>
@@ -46,3 +46,4 @@
 
     </Grid>
 </Page>
+

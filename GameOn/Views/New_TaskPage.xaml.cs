@@ -3,7 +3,6 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
 using Windows.UI.Xaml.Controls;
-using GameOn;
 
 namespace GameOn.Views
 {
@@ -28,14 +27,5 @@ namespace GameOn.Views
         }
 
         private void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-
-        private void Save_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
-        {
-            DateTime dateTime = new DateTime(TaskDate.Date.Value.Year, TaskDate.Date.Value.Month, TaskDate.Date.Value.Day, TaskTime.SelectedTime.Value.Hours, TaskTime.SelectedTime.Value.Minutes, TaskTime.SelectedTime.Value.Seconds);
-
-            PlayerTask newTask = new PlayerTask(dateTime, 10, 100, TaskName.Text, TaskNotes.Text);
-
-            PlayerData.playerTasks.Add(newTask);
-        }
     }
 }

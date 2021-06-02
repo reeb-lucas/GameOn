@@ -7,7 +7,7 @@
     x:Class="GameOn.Views.New_TaskPage"
     Style="{StaticResource PageStyle}"
     mc:Ignorable="d">
-    <Grid x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
+    <Grid x:ConnectionId='2' x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
         <Grid
             Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}" Width="450" Height="800">
             <Button Content="Save" Margin="290,76,0,0" VerticalAlignment="Top" FontSize="20" Width="89"/>
@@ -46,3 +46,4 @@
         </Grid>
     </Grid>
 </Page>
+
